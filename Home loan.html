@@ -1,0 +1,2516 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head><!-- StartFormCustomCSS -->
+    <style type="text/css">
+        .elq-form .elq-required{color:red!important;display:inline;float:none;font-weight:700;margin:0;padding:0}.elq-form #elq-FormLastRow{position:absolute;left:-80%;top:-80%}.elq-form .elq-label{display:inline-block;max-width:100%;font-weight:400;box-sizing:border-box;margin-bottom:0}.elq-form .elq-label-top{padding-bottom:3px}.elq-form .elq-item-label{max-width:100%;font-weight:400;box-sizing:border-box}.elq-form .list-order{margin-left:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.elq-form .one-column{width:100%;clear:both}.elq-form .two-column{float:left;width:38%}.elq-form .three-column{float:left;width:30%}.elq-form .elq-item-textarea{resize:vertical;min-height:48px;max-height:360px;box-sizing:border-box}.elq-form .elq-item-input,.elq-form .elq-item-select,.elq-form .elq-item-textarea{font-family:inherit;font-size:inherit;line-height:inherit;color:inherit;font:inherit;margin:0}.elq-form .elq-item-select{text-transform:none}.elq-form .row.single-checkbox-row{margin-left:0}.elq-form .elq-field-style{padding-bottom:10px}.elq-form .elq-field-style input[type=submit]{-webkit-appearance:square-button}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg)}to{-webkit-transform:rotate(1turn)}}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}.elq-form .loader{vertical-align:middle;display:inline-block;margin-left:10px;border:3px solid #f3f3f3;border-radius:50%;border-top:3px solid #3498db;width:20px;height:20px;-webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite}.elq-form input[type=checkbox],.elq-form input[type=radio]{margin:0}.elq-form .list-order input[type=radio]{margin-left:1px}.elq-form *,.elq-form :after,.elq-form :before{box-sizing:border-box}.elq-form html{font-size:10px;-webkit-tap-highlight-color:transparent}.elq-form body{font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857;color:#333;background-color:#fff}.elq-form button,.elq-form input,.elq-form select,.elq-form textarea{font-family:inherit;font-size:inherit;line-height:inherit}.elq-form a{color:#337ab7;text-decoration:none}.elq-form a:focus,.elq-form a:hover{color:#23527c;text-decoration:underline}.elq-form a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.elq-form figure{margin:0}.elq-form img{vertical-align:middle}.elq-form .img-responsive{display:block;max-width:100%;height:auto}.elq-form .img-rounded{border-radius:6px}.elq-form .img-thumbnail{padding:4px;line-height:1.42857;background-color:#fff;border:1px solid #ddd;border-radius:4px;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.elq-form .img-circle{border-radius:50%}.elq-form hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.elq-form .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}.elq-form .sr-only-focusable:active,.elq-form .sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}.elq-form [role=button]{cursor:pointer}.elq-form .container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}.elq-form .container:after,.elq-form .container:before{display:table;content:" "}.elq-form .container:after{clear:both}@media (min-width:768px){.elq-form .container{width:750px}}@media (min-width:992px){.elq-form .container{width:970px}}@media (min-width:1200px){.elq-form .container{width:1170px}}.elq-form .container-fluid{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}.elq-form .container-fluid:after,.elq-form .container-fluid:before{display:table;content:" "}.elq-form .container-fluid:after{clear:both}.elq-form .row{margin-right:-15px;margin-left:-15px}.elq-form .row:after,.elq-form .row:before{display:table;content:" "}.elq-form .row:after{clear:both}.elq-form .row-no-gutters{margin-right:0;margin-left:0}.elq-form .row-no-gutters [class*=col-]{padding-right:0;padding-left:0}.elq-form .col-lg-1,.elq-form .col-lg-2,.elq-form .col-lg-3,.elq-form .col-lg-4,.elq-form .col-lg-5,.elq-form .col-lg-6,.elq-form .col-lg-7,.elq-form .col-lg-8,.elq-form .col-lg-9,.elq-form .col-lg-10,.elq-form .col-lg-11,.elq-form .col-lg-12,.elq-form .col-md-1,.elq-form .col-md-2,.elq-form .col-md-3,.elq-form .col-md-4,.elq-form .col-md-5,.elq-form .col-md-6,.elq-form .col-md-7,.elq-form .col-md-8,.elq-form .col-md-9,.elq-form .col-md-10,.elq-form .col-md-11,.elq-form .col-md-12,.elq-form .col-sm-1,.elq-form .col-sm-2,.elq-form .col-sm-3,.elq-form .col-sm-4,.elq-form .col-sm-5,.elq-form .col-sm-6,.elq-form .col-sm-7,.elq-form .col-sm-8,.elq-form .col-sm-9,.elq-form .col-sm-10,.elq-form .col-sm-11,.elq-form .col-sm-12,.elq-form .col-xs-1,.elq-form .col-xs-2,.elq-form .col-xs-3,.elq-form .col-xs-4,.elq-form .col-xs-5,.elq-form .col-xs-6,.elq-form .col-xs-7,.elq-form .col-xs-8,.elq-form .col-xs-9,.elq-form .col-xs-10,.elq-form .col-xs-11,.elq-form .col-xs-12{position:relative;min-height:1px;padding-right:15px;padding-left:15px}.elq-form .col-xs-1,.elq-form .col-xs-2,.elq-form .col-xs-3,.elq-form .col-xs-4,.elq-form .col-xs-5,.elq-form .col-xs-6,.elq-form .col-xs-7,.elq-form .col-xs-8,.elq-form .col-xs-9,.elq-form .col-xs-10,.elq-form .col-xs-11,.elq-form .col-xs-12{float:left}.elq-form .col-xs-1{width:8.33333%}.elq-form .col-xs-2{width:16.66667%}.elq-form .col-xs-3{width:25%}.elq-form .col-xs-4{width:33.33333%}.elq-form .col-xs-5{width:41.66667%}.elq-form .col-xs-6{width:50%}.elq-form .col-xs-7{width:58.33333%}.elq-form .col-xs-8{width:66.66667%}.elq-form .col-xs-9{width:75%}.elq-form .col-xs-10{width:83.33333%}.elq-form .col-xs-11{width:91.66667%}.elq-form .col-xs-12{width:100%}.elq-form .col-xs-pull-0{right:auto}.elq-form .col-xs-pull-1{right:8.33333%}.elq-form .col-xs-pull-2{right:16.66667%}.elq-form .col-xs-pull-3{right:25%}.elq-form .col-xs-pull-4{right:33.33333%}.elq-form .col-xs-pull-5{right:41.66667%}.elq-form .col-xs-pull-6{right:50%}.elq-form .col-xs-pull-7{right:58.33333%}.elq-form .col-xs-pull-8{right:66.66667%}.elq-form .col-xs-pull-9{right:75%}.elq-form .col-xs-pull-10{right:83.33333%}.elq-form .col-xs-pull-11{right:91.66667%}.elq-form .col-xs-pull-12{right:100%}.elq-form .col-xs-push-0{left:auto}.elq-form .col-xs-push-1{left:8.33333%}.elq-form .col-xs-push-2{left:16.66667%}.elq-form .col-xs-push-3{left:25%}.elq-form .col-xs-push-4{left:33.33333%}.elq-form .col-xs-push-5{left:41.66667%}.elq-form .col-xs-push-6{left:50%}.elq-form .col-xs-push-7{left:58.33333%}.elq-form .col-xs-push-8{left:66.66667%}.elq-form .col-xs-push-9{left:75%}.elq-form .col-xs-push-10{left:83.33333%}.elq-form .col-xs-push-11{left:91.66667%}.elq-form .col-xs-push-12{left:100%}.elq-form .col-xs-offset-0{margin-left:0}.elq-form .col-xs-offset-1{margin-left:8.33333%}.elq-form .col-xs-offset-2{margin-left:16.66667%}.elq-form .col-xs-offset-3{margin-left:25%}.elq-form .col-xs-offset-4{margin-left:33.33333%}.elq-form .col-xs-offset-5{margin-left:41.66667%}.elq-form .col-xs-offset-6{margin-left:50%}.elq-form .col-xs-offset-7{margin-left:58.33333%}.elq-form .col-xs-offset-8{margin-left:66.66667%}.elq-form .col-xs-offset-9{margin-left:75%}.elq-form .col-xs-offset-10{margin-left:83.33333%}.elq-form .col-xs-offset-11{margin-left:91.66667%}.elq-form .col-xs-offset-12{margin-left:100%}@media (min-width:768px){.elq-form .col-sm-1,.elq-form .col-sm-2,.elq-form .col-sm-3,.elq-form .col-sm-4,.elq-form .col-sm-5,.elq-form .col-sm-6,.elq-form .col-sm-7,.elq-form .col-sm-8,.elq-form .col-sm-9,.elq-form .col-sm-10,.elq-form .col-sm-11,.elq-form .col-sm-12{float:left}.elq-form .col-sm-1{width:8.33333%}.elq-form .col-sm-2{width:16.66667%}.elq-form .col-sm-3{width:25%}.elq-form .col-sm-4{width:33.33333%}.elq-form .col-sm-5{width:41.66667%}.elq-form .col-sm-6{width:50%}.elq-form .col-sm-7{width:58.33333%}.elq-form .col-sm-8{width:66.66667%}.elq-form .col-sm-9{width:75%}.elq-form .col-sm-10{width:83.33333%}.elq-form .col-sm-11{width:91.66667%}.elq-form .col-sm-12{width:100%}.elq-form .col-sm-pull-0{right:auto}.elq-form .col-sm-pull-1{right:8.33333%}.elq-form .col-sm-pull-2{right:16.66667%}.elq-form .col-sm-pull-3{right:25%}.elq-form .col-sm-pull-4{right:33.33333%}.elq-form .col-sm-pull-5{right:41.66667%}.elq-form .col-sm-pull-6{right:50%}.elq-form .col-sm-pull-7{right:58.33333%}.elq-form .col-sm-pull-8{right:66.66667%}.elq-form .col-sm-pull-9{right:75%}.elq-form .col-sm-pull-10{right:83.33333%}.elq-form .col-sm-pull-11{right:91.66667%}.elq-form .col-sm-pull-12{right:100%}.elq-form .col-sm-push-0{left:auto}.elq-form .col-sm-push-1{left:8.33333%}.elq-form .col-sm-push-2{left:16.66667%}.elq-form .col-sm-push-3{left:25%}.elq-form .col-sm-push-4{left:33.33333%}.elq-form .col-sm-push-5{left:41.66667%}.elq-form .col-sm-push-6{left:50%}.elq-form .col-sm-push-7{left:58.33333%}.elq-form .col-sm-push-8{left:66.66667%}.elq-form .col-sm-push-9{left:75%}.elq-form .col-sm-push-10{left:83.33333%}.elq-form .col-sm-push-11{left:91.66667%}.elq-form .col-sm-push-12{left:100%}.elq-form .col-sm-offset-0{margin-left:0}.elq-form .col-sm-offset-1{margin-left:8.33333%}.elq-form .col-sm-offset-2{margin-left:16.66667%}.elq-form .col-sm-offset-3{margin-left:25%}.elq-form .col-sm-offset-4{margin-left:33.33333%}.elq-form .col-sm-offset-5{margin-left:41.66667%}.elq-form .col-sm-offset-6{margin-left:50%}.elq-form .col-sm-offset-7{margin-left:58.33333%}.elq-form .col-sm-offset-8{margin-left:66.66667%}.elq-form .col-sm-offset-9{margin-left:75%}.elq-form .col-sm-offset-10{margin-left:83.33333%}.elq-form .col-sm-offset-11{margin-left:91.66667%}.elq-form .col-sm-offset-12{margin-left:100%}}@media (min-width:992px){.elq-form .col-md-1,.elq-form .col-md-2,.elq-form .col-md-3,.elq-form .col-md-4,.elq-form .col-md-5,.elq-form .col-md-6,.elq-form .col-md-7,.elq-form .col-md-8,.elq-form .col-md-9,.elq-form .col-md-10,.elq-form .col-md-11,.elq-form .col-md-12{float:left}.elq-form .col-md-1{width:8.33333%}.elq-form .col-md-2{width:16.66667%}.elq-form .col-md-3{width:25%}.elq-form .col-md-4{width:33.33333%}.elq-form .col-md-5{width:41.66667%}.elq-form .col-md-6{width:50%}.elq-form .col-md-7{width:58.33333%}.elq-form .col-md-8{width:66.66667%}.elq-form .col-md-9{width:75%}.elq-form .col-md-10{width:83.33333%}.elq-form .col-md-11{width:91.66667%}.elq-form .col-md-12{width:100%}.elq-form .col-md-pull-0{right:auto}.elq-form .col-md-pull-1{right:8.33333%}.elq-form .col-md-pull-2{right:16.66667%}.elq-form .col-md-pull-3{right:25%}.elq-form .col-md-pull-4{right:33.33333%}.elq-form .col-md-pull-5{right:41.66667%}.elq-form .col-md-pull-6{right:50%}.elq-form .col-md-pull-7{right:58.33333%}.elq-form .col-md-pull-8{right:66.66667%}.elq-form .col-md-pull-9{right:75%}.elq-form .col-md-pull-10{right:83.33333%}.elq-form .col-md-pull-11{right:91.66667%}.elq-form .col-md-pull-12{right:100%}.elq-form .col-md-push-0{left:auto}.elq-form .col-md-push-1{left:8.33333%}.elq-form .col-md-push-2{left:16.66667%}.elq-form .col-md-push-3{left:25%}.elq-form .col-md-push-4{left:33.33333%}.elq-form .col-md-push-5{left:41.66667%}.elq-form .col-md-push-6{left:50%}.elq-form .col-md-push-7{left:58.33333%}.elq-form .col-md-push-8{left:66.66667%}.elq-form .col-md-push-9{left:75%}.elq-form .col-md-push-10{left:83.33333%}.elq-form .col-md-push-11{left:91.66667%}.elq-form .col-md-push-12{left:100%}.elq-form .col-md-offset-0{margin-left:0}.elq-form .col-md-offset-1{margin-left:8.33333%}.elq-form .col-md-offset-2{margin-left:16.66667%}.elq-form .col-md-offset-3{margin-left:25%}.elq-form .col-md-offset-4{margin-left:33.33333%}.elq-form .col-md-offset-5{margin-left:41.66667%}.elq-form .col-md-offset-6{margin-left:50%}.elq-form .col-md-offset-7{margin-left:58.33333%}.elq-form .col-md-offset-8{margin-left:66.66667%}.elq-form .col-md-offset-9{margin-left:75%}.elq-form .col-md-offset-10{margin-left:83.33333%}.elq-form .col-md-offset-11{margin-left:91.66667%}.elq-form .col-md-offset-12{margin-left:100%}}@media (min-width:1200px){.elq-form .col-lg-1,.elq-form .col-lg-2,.elq-form .col-lg-3,.elq-form .col-lg-4,.elq-form .col-lg-5,.elq-form .col-lg-6,.elq-form .col-lg-7,.elq-form .col-lg-8,.elq-form .col-lg-9,.elq-form .col-lg-10,.elq-form .col-lg-11,.elq-form .col-lg-12{float:left}.elq-form .col-lg-1{width:8.33333%}.elq-form .col-lg-2{width:16.66667%}.elq-form .col-lg-3{width:25%}.elq-form .col-lg-4{width:33.33333%}.elq-form .col-lg-5{width:41.66667%}.elq-form .col-lg-6{width:50%}.elq-form .col-lg-7{width:58.33333%}.elq-form .col-lg-8{width:66.66667%}.elq-form .col-lg-9{width:75%}.elq-form .col-lg-10{width:83.33333%}.elq-form .col-lg-11{width:91.66667%}.elq-form .col-lg-12{width:100%}.elq-form .col-lg-pull-0{right:auto}.elq-form .col-lg-pull-1{right:8.33333%}.elq-form .col-lg-pull-2{right:16.66667%}.elq-form .col-lg-pull-3{right:25%}.elq-form .col-lg-pull-4{right:33.33333%}.elq-form .col-lg-pull-5{right:41.66667%}.elq-form .col-lg-pull-6{right:50%}.elq-form .col-lg-pull-7{right:58.33333%}.elq-form .col-lg-pull-8{right:66.66667%}.elq-form .col-lg-pull-9{right:75%}.elq-form .col-lg-pull-10{right:83.33333%}.elq-form .col-lg-pull-11{right:91.66667%}.elq-form .col-lg-pull-12{right:100%}.elq-form .col-lg-push-0{left:auto}.elq-form .col-lg-push-1{left:8.33333%}.elq-form .col-lg-push-2{left:16.66667%}.elq-form .col-lg-push-3{left:25%}.elq-form .col-lg-push-4{left:33.33333%}.elq-form .col-lg-push-5{left:41.66667%}.elq-form .col-lg-push-6{left:50%}.elq-form .col-lg-push-7{left:58.33333%}.elq-form .col-lg-push-8{left:66.66667%}.elq-form .col-lg-push-9{left:75%}.elq-form .col-lg-push-10{left:83.33333%}.elq-form .col-lg-push-11{left:91.66667%}.elq-form .col-lg-push-12{left:100%}.elq-form .col-lg-offset-0{margin-left:0}.elq-form .col-lg-offset-1{margin-left:8.33333%}.elq-form .col-lg-offset-2{margin-left:16.66667%}.elq-form .col-lg-offset-3{margin-left:25%}.elq-form .col-lg-offset-4{margin-left:33.33333%}.elq-form .col-lg-offset-5{margin-left:41.66667%}.elq-form .col-lg-offset-6{margin-left:50%}.elq-form .col-lg-offset-7{margin-left:58.33333%}.elq-form .col-lg-offset-8{margin-left:66.66667%}.elq-form .col-lg-offset-9{margin-left:75%}.elq-form .col-lg-offset-10{margin-left:83.33333%}.elq-form .col-lg-offset-11{margin-left:91.66667%}.elq-form .col-lg-offset-12{margin-left:100%}}.elq-form .row{display:inherit}.LV_invalid_field,input.LV_invalid_field:active,input.LV_invalid_field:hover,textarea.LV_invalid_field:active,textarea.LV_invalid_field:hover{outline:1px solid #c00}.LV_validation_message{font-weight:700;margin:0 0 0 5px}.LV_valid{display:none}.LV_invalid{color:#c00;font-size:10px}.submit-button-style{padding:7px 20px;border:1px solid #979797;border-radius:3px;background-color:#fff;color:#4a4a4a;cursor:pointer}.checkbox-aligned{margin-left:5px;display:inline}.form-element-layout{padding:5px 10px}.form-element-instruction{font-size:10px}.form-element-form-text{margin:0}.form-field-visible-xs-block{display:none}.elq-form-design-field .list-order input[type=radio]{margin-left:1px}@media (max-width:767px){.form-field-visible-xs-block{display:block}}.form-field-hidden-xs{display:block}@media (max-width:767px){.form-field-hidden-xs{display:none}}.custom-overlay{margin-left:2px;background:#fff;box-shadow:0 0 4px 0 #777;border-radius:2px;max-width:256px}
+      </style>
+    <!-- EndFormCustomCSS -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <meta name="description" content="DEMO BANK">
+      <meta name="keywords" content="Home Loan, Loan Product, Personal Loan, Loan Terms, Loan Company ">
+      <title>DEMO BANK</title>
+	 <script src="https://d.oracleinfinity.io/infy/acs/account/8f18b0c3da08493b195f72e2f165b96a/js/bidv_demo/odc.js"></script>
+      <!-- Bootstrap -->
+      <link href="https://img03.en25.com/Web/MarketingCloud04/{4da00b4b-165b-445a-8967-b9b26faa9b8c}_bootstrap.min.css" rel="stylesheet">
+      <link href="https://img03.en25.com/Web/MarketingCloud04/{05fe4793-3149-43ba-a6fa-4b550ae04360}_font-awesome.min.css" rel="stylesheet">
+      <link href="https://img03.en25.com/Web/MarketingCloud04/{00177f44-669f-4533-8c1f-21ed3b7f0313}_fontello.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="http://img03.en25.com/Web/MarketingCloud04/{fd6dcec0-a427-4ba9-b5a1-c3314bb2290e}_http://img03.en25.com/Web/MarketingCloud04/{fa91520a-8c21-4bae-8443-bf44230aa6ce}_jquery-ui.css">
+      <link href="https://img03.en25.com/Web/MarketingCloud04/{4f46923d-847b-4e4a-a1a0-efb03b9b80ae}_style.css" rel="stylesheet">
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+<link rel="stylesheet" href="https://img03.en25.com/Web/MarketingCloud04/{dc3ffdb7-730d-4c49-aef4-7d692a931c84}_owl.theme.css"> 
+<link rel="stylesheet" href="https://img03.en25.com/Web/MarketingCloud04/{45e98457-c2fa-423e-9d6c-df9e7f02f5b2}_owl.carousel.css"> 
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+		
+	<style type="text/css">
+  
+  .back-to-top {
+    position: fixed;
+    bottom: -40px;
+    right: 40px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #335dff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    transform: scale(0.3);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.back-to-top:focus {
+    color: #fff;
+}
+.back-to-top.show {
+    bottom: 40px;
+    right: 40px;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.back-to-top.show:hover {
+    color: #fff;
+    bottom: 30px;
+    opacity: 1;
+}
+.arrow {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHN0eWxlPi5zdDB7ZmlsbDojZmZmfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTMxOS4xIDIxN2MyMC4yIDIwLjIgMTkuOSA1My4yLS42IDczLjdzLTUzLjUgMjAuOC03My43LjZsLTE5MC0xOTBjLTIwLjEtMjAuMi0xOS44LTUzLjIuNy03My43UzEwOSA2LjggMTI5LjEgMjdsMTkwIDE5MHoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzE5LjEgMjkwLjVjMjAuMi0yMC4yIDE5LjktNTMuMi0uNi03My43cy01My41LTIwLjgtNzMuNy0uNmwtMTkwIDE5MGMtMjAuMiAyMC4yLTE5LjkgNTMuMi42IDczLjdzNTMuNSAyMC44IDczLjcuNmwxOTAtMTkweiIvPjwvc3ZnPg==);
+    position: absolute; width: 12px; height: 12px; background-size: contain;
+    transform: rotate(-90deg);
+    top: 30%;
+    left: 40%;
+}
+.arrow:nth-child(2){
+    top: 42%;
+}
+
+@keyframes bounceAlpha {
+    0% {opacity: 1; transform: rotate(-90deg) translateX(0px) scale(1);}
+    25%{opacity: 0; transform: rotate(-90deg) translateX(10px) scale(0.9);}
+    26%{opacity: 0; transform: rotate(-90deg) translateX(-10px) scale(0.9);}
+    55% {opacity: 1; transform: rotate(-90deg) translateX(0px) scale(1);}
+}
+
+.back-to-top:hover .arrow{
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+.back-to-top:hover .arrow:nth-child(2){
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-delay:0.2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+@media only screen and (max-width: 575px) {
+    .back-to-top {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .back-to-top.show {
+        bottom: 10px;
+        right: 10px;
+    }
+    .back-to-top.show:hover {
+        bottom: 10px;
+    }
+    .arrow {
+        top: 27%;
+        left: 37%;
+    }
+}
+  
+  .LV_valid{
+    display:none}
+  .LV_invalid{
+    color:#c00;
+    font-size:10px}
+	
+#sticky-menu {
+  position: fixed;
+  right: 0;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: auto;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.icon {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  
+}
+
+
+.menu {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: block;
+  padding: 10px;
+}
+
+.menu li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #ccc;
+}
+
+#sticky-menu:hover  .menu {
+  display: block;
+}
+#sticky-menu:hover  .icon {
+  display: none;
+}
+
+#sticky-menu:hover {
+width: 100px !important;
+padding: 20px !important;
+}
+
+
+#sticky-menu.active .menu {
+  display: block;
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 360px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.close-button:hover {
+    color: #fff!important;
+    background-color: #f44336!important;
+}
+.btn-apply { background-color: #159a73; color: #fff; }
+.btn-apply:hover { color: #fff; background-color: #359478; }
+
+.hover-red:hover {
+    color: #fff!important;
+    background-color: #f44336!important;
+}
+.hover-cancel{
+    color: #000!important;
+    background-color: #ccc!important;
+}
+.hover-register{
+    color: #000!important;
+    background-color: #007bff!important;
+}
+.page-breadcrumb .breadcrumb>li a {
+    color: #FFF!important;
+    font-weight: 700;
+}
+.page-header-homeloan { margin: 0; padding: 175px 0px 80px; min-height: 410px; border: none; background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(0, 0, 0, 0.2) url(http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Bc8f07723-4727-4379-b2bb-3a369c94f649%7D_Home1_1900x720.png) no-repeat center; background-size: cover; }
+.page-header-carloan { margin: 0; padding: 0px 0px 80px; min-height: 410px; border: none; }
+
+.is-invalid {
+  border-color: #dc3545;
+}
+</style>
+ <style type="text/css">
+.sticky-icon  {
+	z-index:1;
+	position:fixed;
+	top:25%;
+	right:0%;
+	width:210px;
+	display:flex;
+	flex-direction:column;}  
+.sticky-icon a  {
+	transform:translate(140px,0px);
+	border-radius:50px 0px 0px 50px;
+	text-align:left;
+	margin:2px;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:10px;
+	font-size:22px;
+	font-family:'Oswald', sans-serif;
+	transition:all 0.8s;}
+.sticky-icon a:hover  {
+	color:#FFF;
+	transform:translate(0px,0px);}	
+.sticky-icon a:hover i  {
+	transform:rotate(360deg);}
+.search_icon a:hover i  {
+	transform:rotate(360deg);}
+.DigitalBanking  {
+	background-color:#2C80D3;
+	color:#FFF;}
+.OtherLoans  {
+	background-color:#159a73;
+	color:#FFF;}
+.PersonalizedOffers{
+	background-color:#f44336;
+	color:#FFF;}
+.CreditCards{
+	background-color:#f51f8a;
+	color:#FFF;}
+				
+.sticky-icon a i {
+	background-color:#FFF;
+	height:40px;
+	width:40px;
+	color:#000;
+	text-align:center;
+	line-height:40px;
+	border-radius:50%;
+	margin-right:20px;
+	transition:all 0.5s;}
+.sticky-icon a i.fa-facebook-f  {
+	background-color:#FFF;
+	color:#2C80D3;}
+
+
+	
+.sticky-icon a i.fa-instagram  {
+	background-color:#FFF;
+	color:#FD1D1D;}
+	
+
+
+.fas fa-shopping-cart  {
+	background-color:#FFF;}	
+#myBtn {
+	height:50px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  text-align:center;
+  padding:10px;
+  text-align:center;
+	line-height:40px;
+  border: none;
+  outline: none;
+  background-color: #1e88e5;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.fa-arrow-circle-up  {
+	font-size:30px;}
+
+#myBtn:hover {
+  background-color: #555;
+}			
+.image-link {
+  position: relative;
+  text-align: center;
+}
+
+.image-link img {
+  display: block;
+  margin: 0 auto;
+}
+
+.image-link .text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right:10px;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+</style>
+   </head>
+   <body>
+      
+      <div class="header">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-2 col-lg-2 col-md-12 col-sm-6 col-6">
+                  <!-- logo -->
+                  <div class="logo">
+                     <a href="index.html?elqTrackId=7af5c870895e4fd1ada2f23d4e4b29cd"><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Bd87c0f9a-d141-459c-af7b-49abcc7f6574%7D_logo-png_160px.png" alt="Demo Bank"></a>
+                  </div>
+               </div>
+               <!-- logo -->
+               <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                  <div id="navigation">
+                     <!-- navigation start-->
+                     <ul>
+                        <li class="active">
+                           <a href="#" class="animsition-link">Home</a>
+                          
+                        </li>
+                        <li>
+                           <a href="#" class="animsition-link">Loan Product</a>
+                           <ul>
+                              <li>
+                                 <a href="#" title="Education Loan" class="animsition-link">Credit Card <span class="badge">New</span></a>
+                                
+                              </li>
+                              <li><a href="#CarLoan" onClick="showMyDivCar()" title="Car Loan" class="animsition-link">Car Loan</a></li>
+                              <li><a href="#" title="Personal Loan" class="animsition-link">Personal Loan</a></li>
+                              <li><a href="#HomeLoan" onClick="showMyDivHome()" title="Home Loan" class="animsition-link">Home Loan</a></li>
+                              <li><a href="#" title="Education Loan" class="animsition-link">Education Loan</a></li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="#" class="animsition-link">About us</a>
+                           <ul>
+                              <li><a href="#" title="About us" class="animsition-link">About us</a></li>
+                              <li><a href="#" title="Team" class="animsition-link">Team</a></li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="#" class="animsition-link">Blog</a>
+                           
+                        </li>
+                        <li>
+                           <a href="#" class="animsition-link">Features</a>
+                           <ul>
+                              
+                              
+                              <li><a href="#" title="Loan Calculator" class="animsition-link">Loan Calculator</a></li>
+                              <li><a href="#" title="Loan Calculator" class="animsition-link">Loan Eligibility Cal <span class="badge">NEW</span></a></li>
+                             
+                              
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="#" class="animsition-link">Bank Account</a>
+                           
+                        </li>
+                     </ul>
+                  </div>
+                  <!-- /.navigation start-->
+               </div>
+			   <!-- Login start-->
+               <div class="col-xl-1 col-lg-2 col-md-9 col-sm-4 col-4">
+                  <!-- logo -->
+                  <div class="Login" id="Login1">
+                     <button onclick="Loginpopup()" class="btn btn-default">Login</button>
+                  </div>
+				  <div class="profile-picture ProfilePic" id="ProfilePic1"  style="display:none;">
+                   <img onclick="openForm()" src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Bc91acb29-a294-4172-8ae9-aed2591db6c9%7D_Mitch_Morris_70x70.png" alt="ProfilePic">
+
+                  </div>
+				  
+
+  <div class="form-popup" id="myForm">
+  <Button class="close-button" onclick="closeProfile()">&times;</Button>
+  <form class="form-container">
+  
+   <img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Bc91acb29-a294-4172-8ae9-aed2591db6c9%7D_Mitch_Morris_70x70.png" style="vertical-align: middle;display: block;margin-left: auto;margin-right: auto;" alt="ProfilePic">
+
+    <h2>Hi Mitch Moris</h2>
+
+    
+    
+	<p><b>Email : mitch.moris_btcc@oracledemos.com</b></p>
+    <p><b>User id : MORRIS1234 </b></p>
+    <p><b>Phone : 84777747711 </b></p>
+
+    
+    <button type="button" class="btn cancel" onclick="closeForm()">Sign Out</button>
+  </form>
+</div>
+				  
+               </div>
+			   <!-- /.Login end-->
+            </div>
+         </div>
+      </div>
+	  
+	   <div class="slider" id="slider" style="display:block;">
+        <!-- slider -->
+        <div class="slider-img" style="background: linear-gradient(to bottom, rgb(16 75 149 / 5%) 0%, rgb(16 75 149 / 40%) 100%);"><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B806a8715-79a5-4af5-979c-78e4611cfc7d%7D_Home1900x480.png" alt="Demo Bank Home Loan" class="">
+            <div class="container">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <div class="slider-captions">
+                        <!-- slider-captions -->
+                        <h1 class="slider-title">Choose the Best Loan. Apply Now!</h1>
+                        <p class="slider-text d-none d-xl-block d-lg-block d-sm-block">The low rate you need for the need you want! Call
+                            </p>
+                         </div>
+                    <!-- /.slider-captions -->
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="slider-img" style="background: linear-gradient(to bottom, rgb(16 75 149 / 5%) 0%, rgb(16 75 149 / 40%) 100%);"><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B00b7f7e4-6790-460e-9392-a99d913d2cac%7D_Car1900x480.png" alt="Demo Bank Car Loan" class="">
+                <div class="container">
+                    <div class=" col-xl-6 col-lg-6 col-md-12  col-sm-12 col-12">
+                        <div class="slider-captions">
+                            <!-- slider-captions -->
+                            <h1 class="slider-title">Award winning car loans with Demo Bank</h1>
+                            <p class="slider-text d-none d-xl-block d-lg-block d-sm-block"> Award winning car loans with low fixed rates and no ongoing fees.</p>
+                             </div>
+                        <!-- /.slider-captions -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="slider-img"  style="background: linear-gradient(to bottom, rgb(16 75 149 / 5%) 0%, rgb(16 75 149 / 40%) 100%);"><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B80530152-6fad-49ba-b15a-ff6fa985785e%7D_Education1900x480.png" alt="Demo Bank Education Loan" class="">
+                <div class="container">
+                    <div class="col-xl-6 col-lg-6 col-md-12  col-sm-12 col-12">
+                        <div class="slider-captions">
+                            <!-- slider-captions -->
+                            <h1 class="slider-title">Education Loan From Demo Bank Rate Low Of Interest.</h1>
+                            <p class="slider-text d-none d-xl-block d-lg-block d-sm-block">Education Loan  At An Attractive Rate Of Interest. Apply Now!</p>
+                             </div>
+                        <!-- /.slider-captions -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="StaticHomeBanner" class="Slider-img" style=" display:none; background: linear-gradient(to bottom, rgb(16 75 149 / 5%) 0%, rgb(16 75 149 / 40%) 100%);">
+	<img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B897bfe05-62f4-479d-af78-95198dea0810%7D_Homewithfamily2.png" alt="Demo Bank Home Loan" class="">
+            <div class="container">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <div class="slider-captions">
+                        <!-- slider-captions -->
+                        <h1 class="slider-title"style="color: #58ccf8;">Choose the Best Loan. Apply Now!</h1>
+                        <p class="slider-text d-none d-xl-block d-lg-block d-sm-block">The low rate you need for the need you want! Call
+                            </p>
+                         </div>
+                    <!-- /.slider-captions -->
+                </div>
+            </div>
+        </div>    
+   <!--div id="loginm" class="" style="display: none;z-index: 3;padding-top: 100px;position: fixed;left: 0;top: 0;width: 100%;height: 100%;overflow: auto;background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.4);">
+   <div class="" style="max-width: 310px;animation: animatezoom 0.6s;box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);width: 900px;margin: auto; background-color: #fff; position: relative; padding: 0; outline: 0;">
+      <div class="" style="text-align: center!important;">
+         <span onclick="document.getElementById('loginm').style.display='none'" class="hover-red " style="font-size: 25px!important;position: absolute;right: 0;top: 0;padding: 10px;">×</span>
+      </div>
+      <div class="w3-container" style="padding: 0.01em 16px;font-family: Verdana,sans-serif;font-size: 15px;line-height: 1.5;">
+         <div class="w3-section" style="margin-top: 30px!important;margin-bottom: 16px!important;font-family: Verdana,sans-serif;font-size: 15px;color: #000 !important; line-height: 1.5;">
+            <label><b>Login is required to proceed</b></label>
+         </div>
+      </div>
+   </div>
+</div-->
+<div id="loginm" class="w3-modal" style="z-index: 3; display: none; padding-top: 100px; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: auto; background-color: rgba(0, 0, 0, 0.4);">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width: 400px;animation: animatezoom 0.6s;width: 900px
+    px;margin: auto;background-color: #fff;position: relative;padding: 0;outline: 0;">
+    <div class="w3-center" style="text-align: center!important;"><br>
+      <span  onclick="closeForm()" class="hover-red "  
+	  style="font-size: 20px!important;position: absolute;right: 0;top: 0;border: none;display: inline-block;padding: 8px 16px;vertical-align: middle;overflow: hidden;text-decoration: none;
+        text-align: center;cursor: pointer;white-space: nowrap;">×</span>
+    </div>
+    <div class="w3-container" style="padding: 0.01em 16px;">
+      <div class="w3-section" style="margin-top: 16px!important;margin-bottom: 16px!important;">
+        <label><b>Email ID</b></label>
+        <input class=""  id="email" type="text" placeholder="Enter Email ID" style="margin-bottom: 16px!important;border: 1px solid #ccc!important;padding: 8px;display: block; width: 100%;">
+        <label><b>Password</b></label>
+        <input class="" type="password" id="password" placeholder="Enter Password"  style="border: 1px solid #ccc!important;padding: 8px;display: block;width: 100%;">
+        <button class="w3-button w3-block w3-green w3-section"  onclick="submitLogin()" style="
+          margin-top: 16px!important;margin-bottom: 16px!important;color: #fff!important;background-color: #4CAF50!important;width: 100%;border: none;
+          display: inline-block;padding: 8px 16px;vertical-align: middle;overflow: hidden;text-decoration: none;text-align: center;cursor: pointer;white-space: nowrap;
+          ">Login</button>
+        <span id="loginsuccess" style="display: none; color: #4CAF50!important;"><b>Login Successful</b></span>
+		 <span id="loginfailure"  style="display: none; color: #f44336!important"><b>Check your EmailID and Password</b></span>
+		
+      </div>
+    </div>
+    <div class="w3-container w3-border-top w3-padding-16 w3-light-grey" style="
+      color: #000!important;background-color: #f1f1f1!important;padding-top: 16px!important;padding-bottom: 16px!important;border-top: 1px solid #ccc!important;padding: 0.01em 16px;
+      ">
+      <button onclick="closeForm()" type="button" class="hover-cancel" style="color: #fff!important; background-color:#f44336!important;    border: none;
+    display: inline-block;padding: 8px 16px; vertical-align: middle; overflow: hidden;text-decoration: none;">Cancel</button>
+	<button onclick="" type="button" class="hover-register" style="color: #fff!important; background-color:#15549a!important;    border: none;
+    display: inline-block;padding: 8px 16px; vertical-align: middle; overflow: hidden;text-decoration: none;">Registration</button>
+      <span class="w3-right w3-padding w3-hide-small" style="
+    float: right!important;padding: 8px 0px!important; color: #000!important; background-color: #f1f1f1!important;">Forgot <a href="javascript:void(0)">password?</a></span>
+    </div>
+  </div>
+</div>
+
+<!--div id="Registration" class="w3-modal" style="z-index: 3; display: none; padding-top: 100px; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: auto; background-color: rgba(0, 0, 0, 0.4);">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width: 700px;animation: animatezoom 0.6s;width: 900px
+    px;margin: auto;background-color: #fff;position: relative;padding: 0;outline: 0;">
+    <div class="w3-center" style="text-align: center!important;"><br>
+      <span  onclick="closeForm()" class="hover-red "  
+	  style="font-size: 20px!important;position: absolute;right: 0;top: 0;border: none;display: inline-block;padding: 8px 16px;vertical-align: middle;overflow: hidden;text-decoration: none;
+        text-align: center;cursor: pointer;white-space: nowrap;">×</span>
+    </div>
+    <div class="w3-container" style="padding: 0.01em 16px;">
+      <div class="w3-section" style="margin-top: 16px!important;margin-bottom: 16px!important;">
+        <label><b>Email ID</b></label>
+        <input class=""  id="email" type="text" placeholder="Enter Email ID" style="margin-bottom: 16px!important;border: 1px solid #ccc!important;padding: 8px;display: block; width: 100%;">
+        <label><b>Password</b></label>
+        <input class="" type="password" id="password" placeholder="Enter Password"  style="border: 1px solid #ccc!important;padding: 8px;display: block;width: 100%;">
+        <button class="w3-button w3-block w3-green w3-section"  onclick="submitLogin()" style="
+          margin-top: 16px!important;margin-bottom: 16px!important;color: #fff!important;background-color: #4CAF50!important;width: 100%;border: none;
+          display: inline-block;padding: 8px 16px;vertical-align: middle;overflow: hidden;text-decoration: none;text-align: center;cursor: pointer;white-space: nowrap;
+          ">Login</button>
+       
+		
+      </div>
+    </div>
+    <div class="w3-container w3-border-top w3-padding-16 w3-light-grey" style="
+      color: #000!important;background-color: #f1f1f1!important;padding-top: 16px!important;padding-bottom: 16px!important;border-top: 1px solid #ccc!important;padding: 0.01em 16px;
+      ">
+      <button onclick="closeForm()" type="button" class="hover-cancel" style="color: #fff!important; background-color:#f44336!important;    border: none;
+    display: inline-block;padding: 8px 16px; vertical-align: middle; overflow: hidden;text-decoration: none;">Cancel</button>
+	
+     
+    </div>
+  </div>
+</div-->
+<div  id="HomeLoan">
+      <div class="">
+         <div class="container">
+		  
+            <div class="row">
+               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" style="padding-top: 20px;">
+                  <div class="page-breadcrumb">
+                     <ol class="breadcrumb">
+                        <li style="color: #3c4d6b !important;"><a href="#" style="color: #3c4d6b !important;">Home</a></li>
+                        <li style="color: #3c4d6b !important;"><a href="#" style="color: #3c4d6b !important;">Loan Product</a></li>
+                        <li class="active" style="color: #3c4d6b !important;">Home Loan</li>
+                     </ol>
+                  </div>
+               </div>
+               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="bg-white pinside30">
+                     <div class="row">
+                        <div class="col-xl-5 col-lg-5 col-md-4 col-sm-4 col-4">
+                           <h1 class="page-title">Home Loan</h1>
+                        </div>
+                        <div class="col-xl-7 col-lg-8 col-md-8 col-sm-8 col-8">
+                           <div class="row">
+                              <div class="col-xl-4 col-lg-4 col-md-12 col-sm-4 col-4 d-none d-xl-block d-lg-block">
+                                 <div class="rate-block">
+                                    <h1 class="rate-number">9.50%**</h1>
+                                    <small>Rate of Interest</small> 
+                                 </div>
+                              </div>
+                              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-8 col-8">
+                                 <div class="btn-action"> 
+								 <button  onclick="Loginpopup()" id="ApplyBtnlogin" style="display: block; position:absolute; padding-left: 45px;" class="btn btn-apply">Apply for loan</button>
+								 <a  onclick="ApplyLoan()" id="ApplyBtn1" style="display: none; position:absolute; padding-left: 45px;" href="http://marketingcloud04.eloquademos.com/DemoBank_Login_TY_EN?elqTrackId=4f8cd0ad7aed427b9eb65a8e9397b5be" class="btn btn-apply">Apply for loan</a> 
+								 <a href="#section-apply" class="btn btn-primary">Get a call back</a> 
+								 <a href="#" class="btn btn-default">Emi Calculator</a> </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+				<!--div id="sticky-menu" class="fixed">
+ 
+<div class="icon"><img style="padding-right:10px;" src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Bb274fcec-9f88-46cb-a129-c890581617fd%7D_Digitalbanking_40x40.png" alt="DigitalbankIcon"></div>
+  <div class="icon"><img style="padding-right:10px;" src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Ba11986ed-e79a-44dc-9cbc-ba0b16492f4e%7D_Loan_40x40.png" alt="Loan"></div>
+
+
+  <div class="menu" style="padding:0px;">
+    <a href="#" onClick="DigitalBanking()"><img style="padding-right:10px;" src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Bb274fcec-9f88-46cb-a129-c890581617fd%7D_Digitalbanking_40x40.png" alt="DigitalbankIcon">
+Digital Banking</a>
+    <a href="#" onClick="OtherLoans()"><img style="padding-right:10px;" src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Ba11986ed-e79a-44dc-9cbc-ba0b16492f4e%7D_Loan_40x40.png" alt="Loan">
+	Interested in other loans</a>
+    
+  </div>
+
+</div-->
+<!--Start Sticky Icon--> 
+<div class="sticky-icon">
+<a href="#section-Recommendations-PersonalizedOffers" onClick="PersonalizedOffers()" id="PersonalizedOffers" class="PersonalizedOffers  image-link" style="display:none;">
+<i class="fab">
+<img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B22b2dfe9-cada-4076-849b-1aa46a02b56a%7D_output-onlinepngtools_%283%29.png" alt="PersonalLoanIcon"> 
+</i>
+<span class="text" style="font-size: 14px;font-weight: bold;">Personalized Offers</span>
+</a>
+<a href="#section-Recommendations-SmartBanking" onClick="DigitalBanking()" id="DigitalBanking" class="DigitalBanking image-link" style="display:block;">
+  <i class="fab">
+    <img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B30efbe4d-36cb-49a0-b4cb-137ad086db6e%7D_output-onlinepngtools.png" alt="DigitalbankIcon">
+  </i>
+  <span class="text" style="font-size: 14px;font-weight: bold;">Smart Banking</span>
+</a>
+<a href="#section-Recommendations-OtherLoans" onClick="OtherLoans()" id="OtherLoans" class="OtherLoans  image-link" style="display:block;">
+<i class="fab">
+<img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B4c67ec72-a849-4dc4-b337-5af21f4d2a74%7D_output-onlinepngtools_%281%29.png" alt="OtherLoansIcon"> 
+</i>
+<span class="text" style="font-size: 14px;font-weight: bold;">Other Loans</span>
+</a>
+<a href="#section-Recommendations-Creditcards" onClick="Creditcards()" id="CreditCards" class="CreditCards  image-link" style="display:block;">
+<i class="fab">
+<img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B8f1d47aa-e5ed-469d-914b-642ab9ac54b4%7D_output-onlinepngtools_%282%29.png" alt="CreditCardIcon"> 
+</i>
+<span class="text" style="font-size: 14px;font-weight: bold;">Credit Cards</span>
+</a>
+</div>
+
+<!--End Sticky Icon-->
+                  <div class="sub-nav" id="sub-nav">
+                     <ul class="nav nav-justified">
+                        <li class="nav-item"><a href="#section-about" class="page-scroll nav-link">About Loan</a></li>
+                        <li class="nav-item"><a href="#section-typeloan" class="page-scroll nav-link">types of loan</a></li>
+                        <li class="nav-item"><a href="#section-feature" class="page-scroll nav-link">features &amp; Benefits</a></li>
+                        <li class="nav-item"><a href="#section-eleigiblity" class="page-scroll nav-link">eligibility</a></li>
+                        <li class="nav-item"><a href="#section-faq" class="page-scroll nav-link">FAQ’S</a></li>
+                        <li class="nav-item"><a href="#section-apply" class="page-scroll nav-link">Apply Now</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+     
+         <!-- content start -->
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
+                  <div class="wrapper-content bg-white">
+                      <!-- content start -->
+    <div class="container">
+	<div class="pinside60" id="section-Recommendations">
+						<div class="row">
+                              <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
+                                 <div class="section-title mb60">
+                                    <h2>Recommendations</h2>
+                                    
+                                 </div>
+                              </div>
+                           </div>
+                            <div class="row">
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                 <div class="feature-blurb mb30">
+                                    <h3 style="text-align: center;">Home loan</h3>
+                                    <p></p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                 <div class="feature-blurb mb30">
+                                    <h3 style="text-align: center;">Digital banking</h3>
+                                    <p></p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                 <div class="feature-blurb mb30">
+                                    <h3 style="text-align: center;">Credit card</h3>
+                                    <p> </p>
+                                 </div>
+                              </div>
+                           </div>
+						   <div class="row row-4" style="background:#ffffff;margin:0 auto;">
+          <div class="column col-xs-12 col-sm-4 col-0" style="vertical-align:top;background:transparent;text-align:left;font-size:12px;font-family:Arial, Helvetica, sans-serif;color:#000000;">
+            <div style="background-color:transparent;line-height:18px;padding:10px 10px 10px 10px;" class="elq-text-cell cell cell-0"><span></span></div>
+            <div class="elq-image-cell  cell cell-1" style="background-color:transparent;line-height:0;padding:0px 0px 0px 0px;text-align:center;">
+              <img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Bc6f71d1a-2d1c-4b11-90e7-550a8dada6a1%7D_Home_300x200.png" style="width:100%;height:auto;max-width:4288px"></div>
+          </div>
+          <div class="column col-xs-12 col-sm-4 col-1" style="vertical-align:top;background:transparent;text-align:left;font-size:12px;font-family:Arial, Helvetica, sans-serif;color:#000000;">
+            <div style="background-color:transparent;line-height:18px;padding:10px 10px 10px 10px;" class="elq-text-cell cell cell-0"><span></span></div>
+            <div class="elq-image-cell  cell cell-1" style="background-color:transparent;line-height:0;padding:0px 0px 0px 0px;text-align:center;">
+              <img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B7fd3a99d-b7f4-4528-9c7a-0fc4c02db777%7D_Digital_Banking_300x200.png" style="width:100%;height:auto;max-width:4000px"></div>
+          </div>
+          <div class="column col-xs-12 col-sm-4 col-2" style="vertical-align:top;background:transparent;text-align:left;font-size:12px;font-family:Arial, Helvetica, sans-serif;color:#000000;">
+            <div style="background-color:transparent;line-height:18px;padding:10px 10px 10px 10px;" class="elq-text-cell cell cell-0"><span></span></div>
+            <div class="elq-image-cell  cell cell-1" style="background-color:transparent;line-height:0;padding:0px 0px 0px 0px;text-align:center;">
+              <img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B07896312-83fe-496d-aef2-f6804b57e2b9%7D_Credit_Card_300x200.png" style="width:100%;height:auto;max-width:5472px"></div>
+          </div>
+        </div>
+                           <div class="row">
+                              <div class="offset-xl-3 col-xl-6 offset-lg-3 col-lg-6 offset-md-3 col-md-6  col-sm-12 col-12"> </div>
+                           </div>
+                              
+                              
+                           </div>
+	<div class="row"  id="section-Recommendations-PersonalizedOffers"  style="display:none;">
+                              <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
+                                 <div class="section-title pinside60" style="padding: 30px !important;">
+                                    <h2>Recommendations - Personalized Offers</h2>
+                                  
+                                 </div>
+								  
+                           </div>
+		<div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb30" style="padding-left: 60px;padding-right: 30px;">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <h2>Upgrade Credit Card</h2>
+                                        <p>Duis faucibus sed leo a maximus. Donec hendrerit velit lacus, eu molestie metus rutrum nonecenas quis purus bibendum arcu euismod elementum id in quam.</p>
+                                        <ul class=" bullet bullet-check-circle list-unstyled">
+                                            <li>No annual fee</li>
+                                            <li>Zero fuel surcharge</li>
+                                            <li>More Reward points</li>
+                                            <li>Bouquet of discount vouchers as welcome gift</li>
+                                        </ul>
+                                        <a href="#CreditOffers" onClick="document.getElementById('CreditOffers').style.display='block'" class="btn btn-default btn-sm">find out more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb30" style="padding-left: 0px;padding-right: 60px;">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <h2>Loan on Your Savings Balance</h2>
+                                        <p>Nullam vel pretium urna. Aenean fringilla ex est, id fermentum lorem mattis sit amet. Vivamus ut scelerisque massa, eget blandit lacus.</p>
+                                        <ul class=" bullet bullet-check-circle list-unstyled">
+                                            <li>Competitive interest rates</li>
+                                            <li>Quick and easy to apply for</li>
+                                            <li>No credit check required</li>
+                                            <li>No collateral required and Can be used for any purpose.</li>
+                                        </ul>
+                                        <a href="#" class="btn btn-default btn-sm">find out more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+		<div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" id="CreditOffers" style="padding: 60px;display:none">
+                    <div class="bg-white table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th style="width:20%;padding: 12px 20px 12px;text-align: left;" class="card-tag">Card</th>
+                                    <th style="width:30%;padding: 12px 20px 12px;text-align: left;" class="card-name">Card Name</th>
+                                    <th style="width:11%;padding: 12px 20px 12px;text-align: left;" class="anuual-fees">Annual Fee</th>
+                                    <th style="padding: 12px 20px 12px;text-align: left;" class="reward-rate">Rewards Rate </th>
+                                    <th class="action"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Be9258da0-4907-4c23-b1e8-4293e8ab50f3%7D_DemoClassic162x94.png" alt="" class="img-fluid"></td>
+                                    <td>
+                                        <span class="text-dark compare-card-title">
+                                 Demo Classic</span>
+                                        <br>
+                                       </td>
+                                    <td class="text-dark text-bold">$0</td>
+                                    <td class="text-dark text-bold">3%</td>
+                                    <td class="text-center">
+                                        <img style="width:60px;" src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B8dd2af1a-1ecc-4911-819e-c7d8f0b6b67c%7D_checkmark80x80.png" alt="Check mark Icon" class="icon-svg-2x">
+                                      
+                                        <!--div class="mt10"><a class="btn-link collapsed" id="example-one" data-text-swap="Hide Details" data-text-original="Expand Details" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Expand Details</a></div-->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12" class="expandable-info">
+                                        <div class="expandable-collapse collapse" id="collapseExample" style="">
+                                            <div class="row">
+                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                                    <div class="card border-0">
+                                                        <div class="card-body">
+                                                            <h4 class="mb20">Card Information</h4>
+                                                            <ul class="bullet bullet-check-circle list-unstyled">
+                                                                <li>$150 credit for spending $500 in first 3 months</li>
+                                                                <li>3% back at gas stations</li>
+                                                                <li>2% back at grocery stores</li>
+                                                                <li>1% back on regular purchases</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="card border-0">
+                                                        <div class="card-body">
+                                                            <h4 class="mb20">What We Like</h4>
+                                                            <ul class="bullet bullet-check-circle list-unstyled">
+                                                                <li>0% APR on regular purchases for first 12 months</li>
+                                                                <li>0% APR on balance transfers for first 12 months</li>
+                                                                <li>10% bonus when redeeming rewards into a Bank of Borrow checking or savings account</li>
+                                                                <li>No annual fee</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="card border-0">
+                                                        <div class="card-body">
+                                                            <h4 class="mb20">What to Consider</h4>
+                                                            <ul class="bullet bullet-check-circle list-unstyled">
+                                                                <li>Regular APR: 13.99% - 23.99%, variable</li>
+                                                                <li>Balance Transfer APR: 13.99% - 23.99%, variable</li>
+                                                                <li>Cash Advance APR: 16.99% - 25.99%, variable</li>
+                                                                <li>Penalty APR: 29.99%, variable</li>
+                                                                <li>3% foreign transaction fee</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-12">
+                                                    <div class="mt30">
+                                                        <h4 class="mb5">Related Information</h4>
+                                                        <p>See additional details for <a href="#">BankBorrow</a> Cash Rewards for Borrow Moneyback</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Ba7d0f5b4-b1f2-4ae3-bc52-643eeb099a81%7D_DemoGold162x94.png" alt=""></td>
+                                    <td>
+                                        <span class="text-dark compare-card-title">Demo Gold</span>
+                                        <br>
+                                       </td>
+                                    <td class="text-bold text-dark">$0</td>
+                                    <td class="text-bold text-dark">4%</td>
+                                    <td class="text-center ">
+                                        <a href="#" class="btn btn-default btn-sm mb5">Apply Now</a>
+                                       
+                                        <div class="mt10 "><a class="btn-link collapsed" data-toggle="collapse" id="example-two" data-text-swap="Hide Details" data-text-original="Expand Details" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">Expand Details</a></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12" class="expandable-info">
+                                        <div class="expandable-collapse collapse" id="collapseExample2" style="">
+                                            <div class="row">
+                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="card border-0">
+                                                        <div class="card-body">
+                                                            <h4 class="mb20">Card Information</h4>
+                                                            <ul class="bullet bullet-check-circle list-unstyled">
+                                                                <li>$150 credit for spending $500 in first 3 months</li>
+                                                                <li>3% back at gas stations</li>
+                                                                <li>2% back at grocery stores</li>
+                                                                <li>1% back on regular purchases</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="card border-0">
+                                                        <div class="card-body">
+                                                            <h4 class="mb20 ">What We Like</h4>
+                                                            <ul class="bullet bullet-check-circle list-unstyled">
+                                                                <li>0% APR on regular purchases for first 12 months</li>
+                                                                <li>0% APR on balance transfers for first 12 months</li>
+                                                                <li>10% bonus when redeeming rewards into a Bank of Borrow checking or savings account</li>
+                                                                <li>No annual fee</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="card border-0">
+                                                        <div class="card-body">
+                                                            <h4 class="mb20">What to Consider</h4>
+                                                            <ul class="bullet bullet-check-circle list-unstyled">
+                                                                <li>Regular APR: 13.99% - 23.99%, variable</li>
+                                                                <li>Balance Transfer APR: 13.99% - 23.99%, variable</li>
+                                                                <li>Cash Advance APR: 16.99% - 25.99%, variable</li>
+                                                                <li>Penalty APR: 29.99%, variable</li>
+                                                                <li>3% foreign transaction fee</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-12">
+                                                    <div class="mt30">
+                                                        <h4 class="mb5">Related Information</h4>
+                                                        <p>See additional details for <a href="#">BankBorrow</a>Cash Rewards for Borrow Moneyback</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B1b735d54-a324-45cf-92a4-9ac183bc2460%7D_DemoPlatinum162x94.png" alt=""></td>
+                                    <td>
+                                        <span class="text-dark compare-card-title">Demo Platinum</span>
+                                        <br>
+                                       </td>
+                                    <td class="text-bold text-dark">$0</td>
+                                    <td class="text-bold text-dark">1%</td>
+                                    <td class="text-center ">
+                                        <a href="#" class="btn btn-default btn-sm mb5">Apply Now</a>
+                                        
+                                        <div class="mt10 "><a class="btn-link" data-toggle="collapse" id="example-three" data-text-swap="Hide Details" data-text-original="Expand Details" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">   Expand Details  </a></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="12" class="expandable-info">
+                                        <div class="collapse expandable-collapse" id="collapseExample3">
+                                            <div class="row">
+                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="card border-0">
+                                                        <div class="card-body">
+                                                            <h4 class="mb20">Card Information</h4>
+                                                            <ul class="bullet bullet-check-circle list-unstyled">
+                                                                <li>$150 credit for spending $500 in first 3 months</li>
+                                                                <li>3% back at gas stations</li>
+                                                                <li>2% back at grocery stores</li>
+                                                                <li>1% back on regular purchases</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="card border-0">
+                                                        <div class="card-body">
+                                                            <h4 class="mb20 ">What We Like</h4>
+                                                            <ul class="bullet bullet-check-circle list-unstyled">
+                                                                <li>0% APR on regular purchases for first 12 months</li>
+                                                                <li>0% APR on balance transfers for first 12 months</li>
+                                                                <li>10% bonus when redeeming rewards into a Bank of Borrow checking or savings account</li>
+                                                                <li>No annual fee</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                    <div class="card border-0">
+                                                        <div class="card-body">
+                                                            <h4 class="mb20">What to Consider</h4>
+                                                            <ul class="bullet bullet-check-circle list-unstyled">
+                                                                <li>Regular APR: 13.99% - 23.99%, variable</li>
+                                                                <li>Balance Transfer APR: 13.99% - 23.99%, variable</li>
+                                                                <li>Cash Advance APR: 16.99% - 25.99%, variable</li>
+                                                                <li>Penalty APR: 29.99%, variable</li>
+                                                                <li>3% foreign transaction fee</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-12">
+                                                    <div class="mt30">
+                                                        <h4 class="mb5">Related Information</h4>
+                                                        <p>See additional details for <a href="#">BankBorrow</a>Cash Rewards for Borrow Moneyback</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            
+                            
+                        </table>
+                    </div>
+                </div>
+            </div>				
+        
+    </div>
+	<div class="row"  id="section-Recommendations-SmartBanking"  style="display:none;">
+                              <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
+                                 <div class="section-title pinside60" style="padding: 30px !important;">
+                                    <h2>Recommendations - Smart Banking</h2>
+                                  
+                                 </div>
+								  
+                           </div>
+		
+        <div class="row">
+             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+			 
+                <div class="wrapper-content bg-white pinside40" style="margin-bottom: 0px !important;">
+                    <div class="row">
+                            <div class="col-xl-12 col-lg-6 col-md-6 col-sm-12 col-12 mb30">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <h2>Smart banking features</h2>
+                                        <p>Duis faucibus sed leo a maximus. Donec hendrerit velit lacus, eu molestie metus rutrum nonecenas quis purus bibendum arcu euismod elementum id in quam.</p>
+                                        <ul class=" bullet bullet-check-circle list-unstyled">
+                                            <li> Automated financial planning and budgeting</li>
+                                            <li>Proactive fraud detection and prevention</li>
+                                            <li>Personalized recommendations for products and services</li>
+                                            <li>Chatbots and virtual assistants</li>
+											<li>AI-powered investment advice</li>
+                                        </ul>
+                                        <a href="#" class="btn btn-default btn-sm">find out more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content end -->
+	<div class="row"  id="section-Recommendations-Creditcards"  style="display:none;">
+                              <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
+                                 <div class="section-title pinside60" style="padding: 25px !important;">
+                                    <h2>Recommendations - Credit Cards</h2>
+                                  
+                                 </div>
+								  
+                           </div>
+		
+        <div class="row">
+             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+			 
+                <div class="wrapper-content bg-white pinside40" style="margin-bottom: 0px !important;">
+                    <div class="row">
+					
+                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div class="card-listing">
+                                <!-- card listing -->
+                                <div class="card-img">
+                                    <a href="#"><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Ba4f132b7-766f-40ad-aeea-3e902392e7e1%7D_DemoClassic.png" alt="Demo Bank Card1"></a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="card-name"><a href="#" class="title">Demo Classic</a></h3>
+                                    <div class="card-features ">
+                                        <ul class="listnone">
+                                            <li>2 Reward Points for every <strong>$150</strong> spends.</li>
+                                            <li>Redeem Reward points as <strong>CashBack</strong> on your Credit Card</li>
+                                            <li> Zero fuel surcharge</li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="btn btn-default btn-sm">Apply Now</a>
+                                    <a href="#" class="btn-link"> Read More</a>
+                                </div>
+                            </div>
+                            <!-- /.card listing -->
+                        </div>
+                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div class="card-listing">
+                                <!-- card listing -->
+                                <div class="card-img">
+                                    <a href="#"><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B5596948d-3f3c-4141-9686-7c9dd804dcef%7D_DemoGold.png" alt="Demo Bank Card2"></a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="card-name"><a href="#" class="title">Demo Gold</a></h3>
+                                    <div class="card-features ">
+                                        <ul class="listnone">
+                                            <li><strong>25%</strong> off on movies and up to 20% off on dining</li>
+                                            <li>Bouquet of discount vouchers as welcome gift</li>
+                                            <li> 3 Reward Points oan Rs. 150 spent.</li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="btn btn-default btn-sm">Apply Now</a>
+                                    <a href="#" class="btn-link"> Read More</a>
+                                </div>
+                            </div>
+                            <!-- /.card listing -->
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div class="card-listing">
+                                <!-- card listing -->
+                                <div class="card-img">
+                                    <a href="#"><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Bd11ba085-27c3-4fe4-87b4-521e614bc203%7D_DemoPlatinumnew.png" alt="Demo Bank Card3"></a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="card-name"><a href="#" class="title">Demo Platinum</a></h3>
+                                    <div class="card-features ">
+                                        <ul class="listnone">
+                                            <li>Welcome Corporate Benefit of up to 40,000 Bonus</li>
+                                            <li>Earn 6 for every $1500 spent</li>
+                                            <li> Corporate Benfits to all your needs for business.</li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="btn btn-default btn-sm">Apply Now</a>
+                                    <a href="#" class="btn-link"> Read More</a>
+                                </div>
+                            </div>
+                            <!-- /.card listing -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content end -->
+    
+					  <div class="section-scroll bg-white" id="section-Recommendations-OtherLoans" style="display:none;">
+					  <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
+                                 <div class="section-title pinside60"  style="padding: 25px !important;">
+                                    <h2>Recommendations - Other Loans</h2>
+                                  
+                                 </div>
+								  
+                           </div>
+						      
+            <div class="row">
+             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" style="padding-top: 20px;">
+			 
+                <div class="wrapper-content bg-white pinside40" style="margin-bottom: 0px !important;">
+                    <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                <div class="bg-white pinside40 outline mb30 text-center service-block">
+                                    <div class="icon mb40"> <img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Bf6dae318-2685-4b82-b377-b7c80be45dd0%7D_PersonalLoan80x80.png" alt="Personal Loan Icon" class="icon-svg-2x"> </div>
+                                    <h2><a href="#" class="title">Personal Loan</a></h2>
+                                    <p>Serlaoreet necroin lobortis diam sit sitamet urna porttitor sitamesec controces livose anois.</p>
+                                    <a href="#" class="btn-link">Read More</a> </div>
+                            </div>
+                              
+                              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                <div class="bg-white pinside40 outline mb30 text-center service-block">
+                                    <div class="icon mb40"> <img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B94afad30-154b-4f3d-bd33-2036e06acad3%7D_EducationLoan80x80.png" alt="Education Loan Icon" class="icon-svg-2x"></div>
+                                    <h2><a href="#" class="title">Education Loan</a></h2>
+                                    <p>Serlaoreet necroin lobortis diam sit sitamet urna porttitor sitamesec controces livose anois.</p>
+                                    <a href="#" class="btn-link">Read More</a> </div>
+                            </div>
+                            
+                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                <div class="bg-white pinside40 outline mb30 text-center service-block">
+                                    <div class="icon mb40"> <img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Be935638c-96c7-471f-9b3f-34809cb01247%7D_Carloan80x80.png" alt="Car Loan Icon" class="icon-svg-2x"></div>
+                                    <h2><a href="#" class="title">Car Loan</a></h2>
+                                    <p>Serlaoreet necroin lobortis diam sit sitamet urna porttitor sitamesec controces livose anois. </p>
+                                    <a href="#" class="btn-link">Read More</a> </div>
+                            </div>
+                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    
+                        
+                        </div>
+						<div class="section-scroll  pinside60" id="section-about">
+                        <h1>About Home Loan</h1>
+                        <p class="lead">Embark on a seamless home loan journey with our comprehensive guide. Discover eligibility criteria, competitive interest rates, the application process, essential documentation, side-by-side comparisons, and even explore options for a hassle-free transfer to secure the lowest rates. </p>
+                        <div class="row">
+                           <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in ultricies sem. Nullam eget orci mi. Sed porttitor lacus quis scelerisque dignissim. Nunc at bibendum leo. Aliquam non magna. Suspendisse lacinia dolor et dui. Vivamus eu lorem nec ante fermentum eleifend.</p>
+                           </div>
+                           <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                              <p>Vestibulum et varius orci. Maecenas tincidunt augue id risus consectetur, a vehicula justo imperdiet. Sed eu quam nec nulla laoreet viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur non bibendum leo. </p>
+                           </div>
+                        </div>
+                        <hr>
+                        <p>Vestibulum placerat velit et libero facilisis, at luctus dui cursus. Nullam non est at ipsum dignissim eleifend nec eu arcu. </p>
+                         <a onclick="ApplyLoan()" id="ApplyBtn2" style="display: none; position:absolute;" href="http://marketingcloud04.eloquademos.com/DemoBank_Login_TY_EN?elqTrackId=d2fc6aa9f7c04455901683e938e52f76" class="btn btn-apply">Apply for loan</a>
+                     </div>
+                     <div class="section-scroll" id="section-typeloan">
+                        <div class="bg-light pinside60">
+                           <div class="row">
+                              <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
+                                 <div class="section-title mb60">
+                                    <h2>Discover the Perfect Loan for Your Needs Today!</h2>
+                                    <p>Turn Your Dreams into Reality with Timely Support.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-blurb mb60">
+                                    <h3>New Home</h3>
+                                    <p>Secure your new home with a hassle-free home loan from Demo Bank. Benefit from our competitive interest rates, convenient online application process, and eligibility checks. Enjoy the ease of manageable EMIs, and experience fast approval to make your new home a reality.  </p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-blurb mb60">
+                                    <h3>Home Renovation</h3>
+                                    <p>Experience swift approval for your home renovation project with Demo Bank home improvement loan. Benefit from competitive interest rates and flexible EMI repayment options. For in-depth information, explore our range of loan products.</p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-blurb mb60">
+                                    <h3>Land Purchase</h3>
+                                    <p>Discover the perfect piece of land and turn your dream home into a reality with Demo Bank. We offer competitive interest rates on land purchase loans. Apply online, check your eligibility, and enjoy the convenience of easy EMIs. Fast approval ensures you can secure the land of your dreams without delay.</p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-blurb mb60">
+                                    <h3>Home Conversion</h3>
+                                    <p>Transform your living space with ease and convenience through Demo Bank home improvement loan, offering favorable interest rates and versatile EMI repayment terms. Explore our comprehensive portfolio of loan products for additional details. </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="bg-default pinside80 text-center">
+                        <div class="row">
+                           <h1 class="text-white">Get financing for whatever you need now</h1>
+                           <a href="#section-apply" class="btn btn-default" style="margin-left: 35px;">Enquire Now</a> 
+                        </div>
+                     </div>
+                     <div class="section-scroll" id="section-feature">
+                        <div class="pinside60">
+                           <div class="row">
+                              <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
+                                 <div class="section-title mb60">
+                                    <h2>Unlocking the Benefits: Features of Our Home Loan</h2>
+                                    <p> In today's diverse financial landscape, home loans have emerged as a versatile and attractive option for individuals seeking financial flexibility."</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-icon mb30">
+                                    <div class="icon mb20"><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B9e6d6f33-fbc7-4ac2-966c-c084f1fc0196%7D_Icon1.PNG" alt="icon1"></div>
+                                    <h3>Salaried &amp; Self Employed</h3>
+                                    <p>Our loan approval process is one of the fastest, with simple documentation requirements and convenient doorstep service, making it hassle-free.</p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-icon mb30">
+                                    <div class="icon mb20"><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B5c2b0d26-bb1c-4b8e-818d-3b386e433327%7D_Icon2.PNG" alt="icon2"></div>
+                                    <h3>Loan For Agriculturists</h3>
+                                    <p>We provide full written disclosure of all associated charges along with the loan quotation, ensuring transparency and clarity throughout the process.</p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-icon mb30">
+                                    <div class="icon mb20"><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B9bdacb35-776d-47c8-af66-7674be3480b0%7D_Icon3.PNG" alt="icon3"></div>
+                                    <h3>Home Loans For Foreigners</h3>
+                                    <p>Our competitive loan rates and charges make borrowing affordable, providing you with an attractive solution for your financial needs.</p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-icon mb30">
+                                    <div class="icon mb20"><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B0fb71268-696b-4f28-a6d3-8e3616941149%7D_Icon4.PNG" alt="icon4"></div>
+                                    <h3>No Morgage</h3>
+                                    <p>"No Mortgage" implies that a property is owned outright, and there is no outstanding mortgage or home loan associated with it. This can provide financial security and freedom from ongoing mortgage payments, making it an attractive option for homeowners. </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="section-scroll" id="section-eleigiblity">
+                        <div class=" bg-light pinside60">
+                           <div class="row">
+                              <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
+                                 <div class="section-title mb60">
+                                    <h2>Home Loan - Eligibility</h2>
+                                    <p> Any salaried, self-employed or professional Public and Privat companies, Government sector employees including Public Sector is eligible for a personal loan. </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                 <div class="feature-blurb mb30">
+                                    <h3>Age</h3>
+                                    <p>Maximum age of applicant at loan maturity: 60 years</p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                 <div class="feature-blurb mb30">
+                                    <h3>Income</h3>
+                                    <p>Minimum Net Monthly Income: Rs 15,000</p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                 <div class="feature-blurb mb30">
+                                    <h3>Credit Rating</h3>
+                                    <p>Applicant should have the bank specified credit score. </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="offset-xl-3 col-xl-6 offset-lg-3 col-lg-6 offset-md-3 col-md-6  col-sm-12 col-12"> </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="section-scroll" id="section-faq">
+                        <div class="pinside60">
+                           <div class="row">
+                              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                 <div class="section-title mb60">
+                                    <h2>Frequently Ask Questions</h2>
+                                    <p>If you have a question that deals with clients, customers or the public in general, there is bound to be a need for the FAQ page. </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 st-accordion">
+                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                       <div class="panel-heading" role="tab" id="headingOne">
+                                          <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Can I pay off my loan early?</a> </h4>
+                                       </div>
+                                       <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                          <div class="panel-body">
+                                             <p>Lorem ipsums sium congueut porttitor acese its commodo non lorem estibulum finibus urna eu efficitur non lorem acese its commodo sitamet finibus urnaeuloremmse its lorem ipusm dolro sit commodo.</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                       <div class="panel-heading" role="tab" id="headingTwo">
+                                          <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Do you offering refinancing ?</a> </h4>
+                                       </div>
+                                       <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                          <div class="panel-body">
+                                             <p>Aenean convallis, odio in eleifend tristique, sem nisl tincidunt magna, quis fermentum augue neque a diam. Praesent hendrerit risus a imperdiet viverra. Suspendisse sed lectus id arcu viverra interdum et in arcu.</p>
+                                             <p>Incidunt magna quis fermentum augue neque ullam vulputate, odio ac maximus consequat, nisl lorem maximus turpis, nec laoreet est ex vel elit. Sed placerat laoreet lobortis. a diam raesent hendrerit risus a imperdiet viverra uspendisse sed lectus id arcu viverra interdum et in arcu.</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                       <div class="panel-heading" role="tab" id="headingThree">
+                                          <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> When should i apply? </a> </h4>
+                                       </div>
+                                       <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                          <div class="panel-body">
+                                             <p>Incidunt magna quis fermentum augue neque ullam vulputate, odio ac maximus consequat, nisl lorem maximus turpis, nec laoreet est ex vel elit. Sed placerat laoreet lobortis. a diam raesent hendrerit risus a imperdiet viverra uspendisse sed lectus id arcu viverra interdum et in arcu.</p>
+                                             <ul>
+                                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                <li>Cras imperdiet ligula ac elit sollicitudin scelerisque.</li>
+                                                <li>Nunc viverra mi et risus dictum condimentum.</li>
+                                                <li>Integer ac mi nec elit cursus rutrum ac in odio.</li>
+                                                <li>Integer sit amet sapien dapibus libero finibus pellentesque eu at purus.</li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                       <div class="panel-heading" role="tab" id="headingFour">
+                                          <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">Where are you located?</a> </h4>
+                                       </div>
+                                       <div id="collapseFour" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingFour">
+                                          <div class="panel-body">
+                                             <p>Lorem ipsums sium congueut porttitor acese its commodo non lorem estibulum finibus urna eu efficitur non lorem acese its commodo sitamet finibus urnaeuloremmse its lorem ipusm dolro sit commodo.</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="section-scroll" id="section-apply">
+                        <div class="bg-light pinside60">
+                           <div class="row">
+                              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                 <div class="section-title mb60 text-center">
+                                    <h1>Apply Now</h1>
+                                    <p>Now apply for a Home Loan online, All you need to do is provide your details below to proceed with application form.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <form method="post" name="BIDVHomeLoanDemo" action="https://s348607904.t.eloqua.com/e/f2" onsubmit="return handleFormSubmit(this)" id="form191" class="elq-form">
+									<input value="BIDVHomeLoanDemo" type="hidden" name="elqFormName">
+									<input value="348607904" type="hidden" name="elqSiteId">
+									<input name="elqCampaignId" type="hidden">
+									<input type="hidden" class="elq-item-input" name="Language" id="fe1726" value="English">
+									<input type="hidden" class="elq-item-input" name="userid" id="fe1730" value="">
+                                    <fieldset>
+                                       <!-- Text input-->
+                                       <div class="row">
+                                          <div class="form-group col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                             <label class="control-label" for="fe1721">Frist Name<span class="elq-required">*</span></label>
+                                             <div class="">
+                                                <input id="fe1721" name="firstName" value="" type="text" placeholder="FristName" class="form-control input-md">
+                                                <span class="help-block"> </span> 
+                                             </div>
+                                          </div>
+										  <div class="form-group col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                             <label class="control-label" for="fe1722">Last Name</label><span class="elq-required">*
+                </span>
+                                             <div class="">
+                                                <input id="fe1722" name="lastName"  value="" type="text" placeholder="LastName" class="form-control input-md">
+                                                <span class="help-block"> </span> 
+                                             </div>
+                                          </div>
+                                          <!-- Text input-->
+                                          <div class="form-group col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                             <label class=" control-label" for="fe1720">E-Mail</label> <span class="elq-required">*
+                </span>
+                                             <div class="">
+                                                <input id="fe1720" name="emailAddress" value="" type="text" placeholder="E-mail" class="form-control input-md">
+                                             
+											 </div>
+                                          </div>
+                                          <!-- Text input-->
+                                          <div class="form-group col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                             <label class="control-label" for="fe1723">Phone</label><span class="elq-required">*
+                </span>
+                                             <div class="">
+                                                <input id="fe1723" name="mobilePhone" value="" type="text" placeholder="Phone" class="form-control input-md">
+                                             </div>
+                                          </div>
+                                         <!-- Button -->
+                                          <div class="form-group col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                             <div class="">
+                                                
+												<input type="Submit" class="btn btn-primary btn-block" value="Submit" id="fe1727">
+                                             </div>
+                                          </div>
+                                      </div>
+                                    </fieldset>
+                                 </form>
+								 
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+ </div>     
+      <!-- /.content end -->
+ 
+<div  id="CarLoan" hidden>
+      <div class="page-header-carloan">
+         <div class="container">
+		  
+            <div class="row">
+               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" style="padding-top: 20px;">
+                  <div class="page-breadcrumb">
+                     <ol class="breadcrumb">
+                        <li style="color: #3c4d6b !important;"><a href="#" style="color: #3c4d6b !important;">Home</a></li>
+                        <li style="color: #3c4d6b !important;"><a href="#" style="color: #3c4d6b !important;">Loan Product</a></li>
+                        <li class="active" style="color: #3c4d6b !important;">Car Loan</li>
+                     </ol>
+                  </div>
+               </div>
+               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="bg-white pinside30">
+                     <div class="row">
+                        <div class="col-xl-5 col-lg-5 col-md-4 col-sm-4 col-4">
+                           <h1 class="page-title">Car Loan</h1>
+                        </div>
+                        <div class="col-xl-7 col-lg-8 col-md-8 col-sm-8 col-8">
+                           <div class="row">
+                              <div class="col-xl-4 col-lg-4 col-md-12 col-sm-4 col-4 d-none d-xl-block d-lg-block">
+                                 <div class="rate-block">
+                                    <h1 class="rate-number">11.50%**</h1>
+                                    <small>Rate of Interest</small> 
+                                 </div>
+                              </div>
+                              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-8 col-8">
+                                 <div class="btn-action"> 
+								 <a href="#" class="btn btn-apply">Apply for loan</a> 
+								 <a href="#" class="btn btn-primary">Get a call back</a> 
+								 <a href="#" class="btn btn-default">Emi Calculator</a> </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+				
+                  <div class="sub-nav" id="sub-nav">
+                     <ul class="nav nav-justified">
+                        <li class="nav-item"><a onclick="showhomeLoanPopup()" href="#section-about-car" class="page-scroll nav-link">About Loan</a></li>
+                        <li class="nav-item"><a onclick="showhomeLoanPopup()" href="#section-typeloan-car" class="page-scroll nav-link">types of loan</a></li>
+                        <li class="nav-item"><a href="#" class="page-scroll nav-link">features &amp; Benefits</a></li>
+                        <li class="nav-item"><a href="#" class="page-scroll nav-link">eligibility</a></li>
+                        <li class="nav-item"><a href="#" class="page-scroll nav-link">FAQ’S</a></li>
+                        <li class="nav-item"><a href="#" class="page-scroll nav-link">Apply Now</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	<div id="homeLoanPopup" class="" style="display: none;z-index: 3;padding-top: 100px;position: fixed;left: 0;top: 0;width: 100%;height: 100%;overflow: auto;background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.4);">
+   <div class="" style="max-width: 310px;animation: animatezoom 0.6s;box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);width: 900px;margin: auto; background-color: #fff; position: relative; padding: 0; outline: 0;">
+      <div class="" style="text-align: center!important;">
+         <span onclick="document.getElementById('homeLoanPopup').style.display='none'" class="hover-red " style="font-size: 25px!important;position: absolute;right: 0;top: 0;padding: 10px;">×</span>
+      </div>
+      <div class="w3-container" style="padding: 0.01em 16px;font-family: Verdana,sans-serif;font-size: 15px;line-height: 1.5;">
+         <div class="w3-section" style="margin-top: 30px!important;margin-bottom: 16px!important;font-family: Verdana,sans-serif;font-size: 15px;color: #000 !important; line-height: 1.5;">
+            <label><h1>We want you back!</h1></label>
+			
+  <p></p>
+  <a href="#Homeloan" onclick="showMyDivHome()">Continue where you left.. click here to apply for home loan!</a>
+         </div>
+      </div>
+   </div>
+</div>  
+
+      <div class=" ">
+         <!-- content start -->
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
+                  <div class="wrapper-content bg-white">
+                     
+					  <!--div class="section-scroll bg-light" id="section-Recommendations">
+                        <div class="pinside60">
+						<div class="row">
+                              <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
+                                 <div class="section-title mb60">
+                                    <h2>Recommendations</h2>
+                                    <p> Based on the customer profile following recommendations are suggested</p>
+                                 </div>
+                              </div>
+                           </div>
+                            <div class="row">
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                 <div class="feature-blurb mb30">
+                                    <h3 style="text-align: center;">Home loan</h3>
+                                    <p></p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                 <div class="feature-blurb mb30">
+                                    <h3 style="text-align: center;">Digital banking</h3>
+                                    <p></p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                 <div class="feature-blurb mb30">
+                                    <h3 style="text-align: center;">Credit card</h3>
+                                    <p> </p>
+                                 </div>
+                              </div>
+                           </div>
+						   <div class="row row-4" style="background:#ffffff;margin:0 auto;">
+          <div class="column col-xs-12 col-sm-4 col-0" style="vertical-align:top;background:transparent;text-align:left;font-size:12px;font-family:Arial, Helvetica, sans-serif;color:#000000;">
+            <div style="background-color:transparent;line-height:18px;padding:10px 10px 10px 10px;" class="elq-text-cell cell cell-0"><span></span></div>
+            <div class="elq-image-cell  cell cell-1" style="background-color:transparent;line-height:0;padding:0px 0px 0px 0px;text-align:center;">
+              <img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7Bc6f71d1a-2d1c-4b11-90e7-550a8dada6a1%7D_Home_300x200.png" style="width:100%;height:auto;max-width:4288px"></div>
+          </div>
+          <div class="column col-xs-12 col-sm-4 col-1" style="vertical-align:top;background:transparent;text-align:left;font-size:12px;font-family:Arial, Helvetica, sans-serif;color:#000000;">
+            <div style="background-color:transparent;line-height:18px;padding:10px 10px 10px 10px;" class="elq-text-cell cell cell-0"><span></span></div>
+            <div class="elq-image-cell  cell cell-1" style="background-color:transparent;line-height:0;padding:0px 0px 0px 0px;text-align:center;">
+              <img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B7fd3a99d-b7f4-4528-9c7a-0fc4c02db777%7D_Digital_Banking_300x200.png" style="width:100%;height:auto;max-width:4000px"></div>
+          </div>
+          <div class="column col-xs-12 col-sm-4 col-2" style="vertical-align:top;background:transparent;text-align:left;font-size:12px;font-family:Arial, Helvetica, sans-serif;color:#000000;">
+            <div style="background-color:transparent;line-height:18px;padding:10px 10px 10px 10px;" class="elq-text-cell cell cell-0"><span></span></div>
+            <div class="elq-image-cell  cell cell-1" style="background-color:transparent;line-height:0;padding:0px 0px 0px 0px;text-align:center;">
+              <img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B07896312-83fe-496d-aef2-f6804b57e2b9%7D_Credit_Card_300x200.png" style="width:100%;height:auto;max-width:5472px"></div>
+          </div>
+        </div>
+                           <div class="row">
+                              <div class="offset-xl-3 col-xl-6 offset-lg-3 col-lg-6 offset-md-3 col-md-6  col-sm-12 col-12"> </div>
+                           </div>
+                              
+                              
+                           </div>
+                        </div-->
+						<div class="section-scroll  pinside60" id="section-about-car">
+                        <h1>About Car Loan</h1>
+                        <p class="lead">A car loan is a convenient way to hit the road in your dream vehicle without the burden of paying the full amount upfront. No more waiting for months or years to own your desired car – simply take out a car loan to meet your financial needs.</p>
+                        <div class="row">
+                           <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in ultricies sem. Nullam eget orci mi. Sed porttitor lacus quis scelerisque dignissim. Nunc at bibendum leo. Aliquam non magna. Suspendisse lacinia dolor et dui. Vivamus eu lorem nec ante fermentum eleifend.</p>
+                           </div>
+                           <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                              <p>Vestibulum et varius orci. Maecenas tincidunt augue id risus consectetur, a vehicula justo imperdiet. Sed eu quam nec nulla laoreet viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur non bibendum leo. </p>
+                           </div>
+                        </div>
+                        <hr>
+                        <p>Vestibulum placerat velit et libero facilisis, at luctus dui cursus. Nullam non est at ipsum dignissim eleifend nec eu arcu. </p>
+                         <a onclick="ApplyLoan()" id="ApplyBtn2" style="display: none; position:absolute;" href="http://marketingcloud04.eloquademos.com/DemoBank_Login_TY_EN?elqTrackId=d2fc6aa9f7c04455901683e938e52f76" class="btn btn-apply">Apply for loan</a>
+                     </div>
+                     <div class="section-scroll" id="section-typeloan-car">
+                        <div class="bg-light pinside60">
+                           <div class="row">
+                              <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
+                                 <div class="section-title mb60">
+                                    <h2>Discover the Perfect Loan for Your Needs Today!</h2>
+                                    <p>Turn Your Dreams into Reality with Timely Support.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-blurb mb60">
+                                    <h3>New Car Loan</h3>
+                                    <p>Demo Bank provides competitive interest rates and flexible repayment options for our new car loans. With quick approval, personalized assistance, and complete transparency, getting the car of your dreams has never been easier. </p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-blurb mb60">
+                                    <h3>Pre Owned Car</h3>
+                                    <p>We've established partnerships with an extensive network of authorized pre-owned car dealers, ensuring attractive and accessible car loans for used vehicles. Demo Bank is your go-to for pre-owned car finance.</p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-blurb mb60">
+                                    <h3>Loan Against Car</h3>
+                                    <p>Obtaining a loan has never been more hassle-free, with no income documents needed. Demo Bank provides car loans with competitive interest rates and EMI options tailored to your needs.</p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-blurb mb60">
+                                    <h3>Other Loans</h3>
+                                    <p>Demo Bank extends a range of loan options, including Home Loans, Personal Loans, and Education Loans, featuring competitive interest rates and adaptable EMI structures. For comprehensive information, please explore our variety of loan products. </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="bg-default pinside80 text-center">
+                        <div class="row">
+                           <h1 class="text-white">Get financing for whatever you need now</h1>
+                           <a href="#" class="btn btn-default" style="margin-left: 35px;">Enquire Now</a> 
+                        </div>
+                     </div>
+                     <!--div class="section-scroll" id="section-feature">
+                        <div class="pinside60">
+                           <div class="row">
+                              <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
+                                 <div class="section-title mb60">
+                                    <h2>Unlocking the Benefits: Features of Our Car Loan</h2>
+                                    <p> In today's diverse financial landscape, home loans have emerged as a versatile and attractive option for individuals seeking financial flexibility."</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-icon mb30">
+                                    <div class="icon mb20"><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B9e6d6f33-fbc7-4ac2-966c-c084f1fc0196%7D_Icon1.PNG" alt="icon1"></div>
+                                    <h3>Salaried &amp; Self Employed</h3>
+                                    <p>Our loan approval process is one of the fastest, with simple documentation requirements and convenient doorstep service, making it hassle-free.</p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-icon mb30">
+                                    <div class="icon mb20"><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B5c2b0d26-bb1c-4b8e-818d-3b386e433327%7D_Icon2.PNG" alt="icon2"></div>
+                                    <h3>Loan For Agriculturists</h3>
+                                    <p>We provide full written disclosure of all associated charges along with the loan quotation, ensuring transparency and clarity throughout the process.</p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-icon mb30">
+                                    <div class="icon mb20"><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B9bdacb35-776d-47c8-af66-7674be3480b0%7D_Icon3.PNG" alt="icon3"></div>
+                                    <h3>Home Loans For Foreigners</h3>
+                                    <p>Our competitive loan rates and charges make borrowing affordable, providing you with an attractive solution for your financial needs.</p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-6 col-md-6 col-lg-6 col-sm-12 col-12">
+                                 <div class="feature-icon mb30">
+                                    <div class="icon mb20"><img src="http://img03.en25.com/EloquaImages/clients/MarketingCloud04/%7B0fb71268-696b-4f28-a6d3-8e3616941149%7D_Icon4.PNG" alt="icon4"></div>
+                                    <h3>No Morgage</h3>
+                                    <p>"No Mortgage" implies that a property is owned outright, and there is no outstanding mortgage or home loan associated with it. This can provide financial security and freedom from ongoing mortgage payments, making it an attractive option for homeowners. </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="section-scroll" id="section-eleigiblity">
+                        <div class=" bg-light pinside60">
+                           <div class="row">
+                              <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12">
+                                 <div class="section-title mb60">
+                                    <h2>Home Loan - Eligibility</h2>
+                                    <p> Any salaried, self-employed or professional Public and Privat companies, Government sector employees including Public Sector is eligible for a personal loan. </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                 <div class="feature-blurb mb30">
+                                    <h3>Age</h3>
+                                    <p>Maximum age of applicant at loan maturity: 60 years</p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                 <div class="feature-blurb mb30">
+                                    <h3>Income</h3>
+                                    <p>Minimum Net Monthly Income: Rs 15,000</p>
+                                 </div>
+                              </div>
+                              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                 <div class="feature-blurb mb30">
+                                    <h3>Credit Rating</h3>
+                                    <p>Applicant should have the bank specified credit score. </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="offset-xl-3 col-xl-6 offset-lg-3 col-lg-6 offset-md-3 col-md-6  col-sm-12 col-12"> </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="section-scroll" id="section-faq">
+                        <div class="pinside60">
+                           <div class="row">
+                              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                 <div class="section-title mb60">
+                                    <h2>Frequently Ask Questions</h2>
+                                    <p>If you have a question that deals with clients, customers or the public in general, there is bound to be a need for the FAQ page. </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 st-accordion">
+                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                       <div class="panel-heading" role="tab" id="headingOne">
+                                          <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Can I pay off my loan early?</a> </h4>
+                                       </div>
+                                       <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                          <div class="panel-body">
+                                             <p>Lorem ipsums sium congueut porttitor acese its commodo non lorem estibulum finibus urna eu efficitur non lorem acese its commodo sitamet finibus urnaeuloremmse its lorem ipusm dolro sit commodo.</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                       <div class="panel-heading" role="tab" id="headingTwo">
+                                          <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Do you offering refinancing ?</a> </h4>
+                                       </div>
+                                       <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                          <div class="panel-body">
+                                             <p>Aenean convallis, odio in eleifend tristique, sem nisl tincidunt magna, quis fermentum augue neque a diam. Praesent hendrerit risus a imperdiet viverra. Suspendisse sed lectus id arcu viverra interdum et in arcu.</p>
+                                             <p>Incidunt magna quis fermentum augue neque ullam vulputate, odio ac maximus consequat, nisl lorem maximus turpis, nec laoreet est ex vel elit. Sed placerat laoreet lobortis. a diam raesent hendrerit risus a imperdiet viverra uspendisse sed lectus id arcu viverra interdum et in arcu.</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                       <div class="panel-heading" role="tab" id="headingThree">
+                                          <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> When should i apply? </a> </h4>
+                                       </div>
+                                       <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                          <div class="panel-body">
+                                             <p>Incidunt magna quis fermentum augue neque ullam vulputate, odio ac maximus consequat, nisl lorem maximus turpis, nec laoreet est ex vel elit. Sed placerat laoreet lobortis. a diam raesent hendrerit risus a imperdiet viverra uspendisse sed lectus id arcu viverra interdum et in arcu.</p>
+                                             <ul>
+                                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                                <li>Cras imperdiet ligula ac elit sollicitudin scelerisque.</li>
+                                                <li>Nunc viverra mi et risus dictum condimentum.</li>
+                                                <li>Integer ac mi nec elit cursus rutrum ac in odio.</li>
+                                                <li>Integer sit amet sapien dapibus libero finibus pellentesque eu at purus.</li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                       <div class="panel-heading" role="tab" id="headingFour">
+                                          <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">Where are you located?</a> </h4>
+                                       </div>
+                                       <div id="collapseFour" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingFour">
+                                          <div class="panel-body">
+                                             <p>Lorem ipsums sium congueut porttitor acese its commodo non lorem estibulum finibus urna eu efficitur non lorem acese its commodo sitamet finibus urnaeuloremmse its lorem ipusm dolro sit commodo.</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div-->
+                     <!--div class="section-scroll" id="section-apply">
+                        <div class="bg-light pinside60">
+                           <div class="row">
+                              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                 <div class="section-title mb60 text-center">
+                                    <h1>Apply Now</h1>
+                                    <p>Now apply for a Home Loan online, All you need to do is provide your details below application form.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <form method="post" name="BIDVHomeLoanDemo" action="https://s348607904.t.eloqua.com/e/f2" onsubmit="return handleFormSubmit(this)" id="form191" class="elq-form">
+									<input value="BIDVHomeLoanDemo" type="hidden" name="elqFormName">
+									<input value="348607904" type="hidden" name="elqSiteId">
+									<input name="elqCampaignId" type="hidden">
+									<input type="hidden" class="elq-item-input" name="Language" id="fe1726" value="English">
+									<input type="hidden" class="elq-item-input" name="userid" id="fe1730" value="">
+                                    <fieldset>
+                                       
+                                       <div class="row">
+                                          <div class="form-group col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                             <label class="control-label" for="fe1721">Frist Name<span class="elq-required">*</span></label>
+                                             <div class="">
+                                                <input id="fe1721" name="firstName" value="" type="text" placeholder="FristName" class="form-control input-md">
+                                                <span class="help-block"> </span> 
+                                             </div>
+                                          </div>
+										  <div class="form-group col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                             <label class="control-label" for="fe1722">Last Name</label><span class="elq-required">*
+                </span>
+                                             <div class="">
+                                                <input id="fe1722" name="lastName"  value="" type="text" placeholder="LastName" class="form-control input-md">
+                                                <span class="help-block"> </span> 
+                                             </div>
+                                          </div>
+                                          
+                                          <div class="form-group col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                             <label class=" control-label" for="fe1720">E-Mail</label> <span class="elq-required">*
+                </span>
+                                             <div class="">
+                                                <input id="fe1720" name="emailAddress" value="" type="text" placeholder="E-mail" class="form-control input-md">
+                                             
+											 </div>
+                                          </div>
+                                          
+                                          <div class="form-group col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                             <label class="control-label" for="fe1723">Phone</label><span class="elq-required">*
+                </span>
+                                             <div class="">
+                                                <input id="fe1723" name="mobilePhone" value="" type="text" placeholder="Phone" class="form-control input-md">
+                                             </div>
+                                          </div>
+                                        
+                                          <div class="form-group col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                             <div class="">
+                                                
+												<input type="Submit" class="btn btn-primary btn-block" value="Submit" id="fe1727">
+                                             </div>
+                                          </div>
+                                      </div>
+                                    </fieldset>
+                                 </form>
+								
+                              </div>
+                           </div>
+                        </div>
+                     </div-->
+                     
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+ </div>     
+      
+      <div class="tiny-footer">
+         <!-- tiny footer -->
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                  <p><a target="_blank" href="#">Demo Bank</a></p>
+               </div>
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 text-right">
+                  <p>Terms of use | Privacy Policy</p>
+               </div>
+            </div>
+         </div>
+      </div>
+	  
+	 
+      <!-- /.tiny footer -->
+      <!-- back to top icon -->
+     <a href="javascript:void(0);" id="backToTop" class="back-to-top">
+    <i class="arrow"></i><i class="arrow"></i>
+</a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+
+
+function submitLogin() {
+  const emailId = $("#email").val();
+  const password = $("#password").val();
+
+  // Call the login function in the backend code
+  login(emailId, password);
+}
+
+// Backend code
+const hardcodedEmailId = "mitch.moris_btcc@oracledemos.com";
+const hardcodedPassword = "MORRIS1234";
+
+function login(emailId, password) {
+  if (emailId === hardcodedEmailId && password === hardcodedPassword) {
+    // Login success
+    // Close the popup modal
+	document.getElementById('loginsuccess').style.display='block';
+	document.getElementById('loginfailure').style.display='none';
+	setTimeout(function() {
+  document.getElementById('loginm').style.display='none';
+  document.getElementById('email').value='' ;
+document.getElementById('password').value='' ;
+}, 1000);
+    
+	Profile();
+  } else {
+    // Login failure
+	document.getElementById('loginfailure').style.display='block';
+	document.getElementById('loginsuccess').style.display='none';
+	
+    
+  }
+}
+
+function showMyDivHome() {
+  document.getElementById('HomeLoan').hidden = false;
+    document.getElementById('CarLoan').hidden = true;
+	document.getElementById('homeLoanPopup').style.display='none';
+}
+
+function showMyDivCar() {
+
+  document.getElementById('CarLoan').hidden = false;
+  document.getElementById('HomeLoan').hidden = true;
+  document.getElementById('homeLoanPopup').style.display='none';
+  var homeLoanPopupDiv = document.getElementById('homeLoanPopup');
+
+// Set a timeout to show the popup after 6 seconds
+setTimeout(function() {
+  homeLoanPopupDiv.style.display = 'block';
+}, 6000);
+
+   
+}
+function showhomeLoanPopup() {
+var homeLoanPopupDiv = document.getElementById('homeLoanPopup');
+
+// Set a timeout to show the popup after 10 seconds
+setTimeout(function() {
+  homeLoanPopupDiv.style.display = 'block';
+}, 3000);
+}
+
+function Loginpopup(){
+document.getElementById('loginm').style.display='block';
+
+}
+
+function Profile() {
+document.getElementById('slider').style.display='none';
+document.getElementById('StaticHomeBanner').style.display='block';
+document.getElementById('Login1').style.display='none';
+document.getElementById('ProfilePic1').style.display='block';
+document.getElementById('ApplyBtnlogin').style.display='none';
+document.getElementById('ApplyBtn1').style.display='block';
+document.getElementById('ApplyBtn2').style.display='block';
+document.getElementById('PersonalizedOffers').style.display='block';
+document.getElementById('DigitalBanking').style.display='none';
+document.getElementById('OtherLoans').style.display='none';
+document.getElementById('CreditCards').style.display='none';
+document.getElementById('fe1721').value='Mitch';
+document.getElementById('fe1722').value='Moris' ;
+document.getElementById('fe1720').value='mitch.moris_btcc@oracledemos.com' ;
+document.getElementById('fe1723').value='84777747711' ;
+document.getElementById('fe1730').value='MORRIS1234' ;
+document.getElementById('section-Recommendations-PersonalizedOffers').style.display='block';
+document.getElementById('section-Recommendations').style.display='none';
+document.getElementById('section-Recommendations-OtherLoans').style.display='none';
+document.getElementById('section-Recommendations-SmartBanking').style.display='none';
+document.getElementById('section-Recommendations-Creditcards').style.display='none';
+document.getElementById('CreditOffers').style.display='none';
+
+var cxDataObject = {
+   
+   "wt.z_page_category":"Home Loan Page", 
+   "wt.z_utm_source":"Online search",
+   "wt.z_utm_medium":"Online, Banking",
+   "wt.z_utm_content":"Banking",
+   "wt.z_utm_campaign":"Home Loan",
+   "wt.z_utm_term":"",
+   "wt.z_userid":"MORRIS1234",
+   "wt.z_consent":"Y",
+   "wt.z_email":"pbh@deloitte.com",
+   "wt.z_firstname":"Mitch",
+   "wt.z_lastname":"Moris",
+   "wt.z_mobilephone":"84777747711",
+   "wt.tx_e":"v",
+   "wt.z_activity":"Login",
+   "wt.z_language":"English",
+};
+window.ORA = window.ORA || {productReady: []};
+    ORA.productReady.push(['analytics', function(cxDataObject) {return function() {return ORA.click({"data": cxDataObject})}}(cxDataObject)]);
+}
+
+function ApplyLoan() {
+
+var cxDataObject = {
+   
+   "wt.z_page_category":"Home Loan Page", 
+   "wt.z_utm_source":"Online search",
+   "wt.z_utm_medium":"Online, Banking",
+   "wt.z_utm_content":"Banking",
+   "wt.z_utm_campaign":"Home Loan",
+   "wt.z_utm_term":"",
+   "wt.z_userid":"MORRIS1234",
+   "wt.z_consent":"Y",
+   "wt.z_email":"mitch.moris_btcc@oracledemos.com",
+   "wt.z_firstname":"Mitch",
+   "wt.z_lastname":"Moris",
+   "wt.z_mobilephone":"84777747711",
+   "wt.z_activity":"Home Loan Form Submit",
+   "wt.z_language":"English",
+};
+
+window.ORA = window.ORA || {productReady: []};
+    ORA.productReady.push(['analytics', function(cxDataObject) {return function() {return ORA.click({"data": cxDataObject})}}(cxDataObject)]);
+}
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+function closeProfile() {
+  document.getElementById("myForm").style.display = "none";
+}
+function closeForm() {
+document.getElementById('slider').style.display='block';
+document.getElementById('StaticHomeBanner').style.display='none';
+document.getElementById('loginm').style.display='none';
+  document.getElementById("myForm").style.display = "none";
+  document.getElementById("Registration").style.display = "none";
+  document.getElementById('PersonalizedOffers').style.display='none';
+  document.getElementById('section-Recommendations').style.display='block';
+  document.getElementById('OtherLoans').style.display='block';
+document.getElementById('DigitalBanking').style.display='block';
+document.getElementById('CreditCards').style.display='block';
+    document.getElementById("ProfilePic1").style.display = "none";
+	document.getElementById('ApplyBtn1').style.display='none';
+	document.getElementById('ApplyBtn2').style.display='none';
+	document.getElementById('ApplyBtnlogin').style.display='block';
+   document.getElementById("Login1").style.display = "block";
+   document.getElementById('fe1721').value='';
+document.getElementById('fe1722').value='' ;
+document.getElementById('fe1720').value='' ;
+document.getElementById('fe1723').value='' ;
+document.getElementById('email').value='' ;
+document.getElementById('password').value='' ;
+document.getElementById('loginsuccess').style.display='none';
+document.getElementById('loginfailure').style.display='none';
+document.getElementById('CreditOffers').style.display='none';
+document.getElementById('section-Recommendations-PersonalizedOffers').style.display='none';
+}
+/*function Registration() {
+document.getElementById('loginm').style.display='none';
+document.getElementById('Registration').style.display='block';
+
+  document.getElementById("myForm").style.display = "none";
+    document.getElementById("ProfilePic1").style.display = "none";
+	document.getElementById('ApplyBtn1').style.display='none';
+	document.getElementById('ApplyBtn2').style.display='none';
+	document.getElementById('ApplyBtnlogin').style.display='block';
+   document.getElementById("Login1").style.display = "none";
+   document.getElementById('fe1721').value='';
+document.getElementById('fe1722').value='' ;
+document.getElementById('fe1720').value='' ;
+document.getElementById('fe1723').value='' ;
+document.getElementById('email').value='' ;
+document.getElementById('password').value='' ;
+
+
+}*/
+
+var btn = $('#backToTop');
+$(window).on('scroll', function() {
+    if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+    } else {
+        btn.removeClass('show');
+    }
+});
+btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: 0
+    }, '300');
+});
+</script>
+<script type="text/javascript">
+// Get the profile picture pop-up element
+    var profilePicturePopUp = document.querySelector(".form-popup");
+
+    // Get the close button element
+    var closeButton = profilePicturePopUp.querySelector(".close-button");
+var stickyMenu = document.getElementById("sticky-menu");
+
+// Get the menu icon element
+var menuIcon = stickyMenu.querySelector(".icon");
+
+// Add an event listener to the menu icon element
+menuIcon.addEventListener("click", function() {
+  // Toggle the sticky menu element's active class
+  stickyMenu.classList.toggle("active");
+});
+
+// Add an event listener to the window
+window.addEventListener("scroll", function() {
+  // Get the scroll position
+  var scrollPosition = window.scrollY;
+
+  // If the scroll position is greater than zero, fix the sticky menu element
+  if (scrollPosition > 0) {
+    stickyMenu.classList.add("fixed");
+  } else {
+    stickyMenu.classList.remove("fixed");
+  }
+});
+</script>
+<script  type="text/JavaScript">
+function PersonalizedOffers() {
+document.getElementById('section-Recommendations-PersonalizedOffers').style.display='block';
+document.getElementById('section-Recommendations-SmartBanking').style.display='none';
+document.getElementById('section-Recommendations').style.display='none';
+document.getElementById('section-Recommendations-OtherLoans').style.display='none';
+document.getElementById('section-Recommendations-Creditcards').style.display='none';
+
+}
+function DigitalBanking() {
+document.getElementById('section-Recommendations-SmartBanking').style.display='block';
+document.getElementById('section-Recommendations').style.display='none';
+document.getElementById('section-Recommendations-OtherLoans').style.display='none';
+document.getElementById('section-Recommendations-Creditcards').style.display='none';
+document.getElementById('section-Recommendations-PersonalizedOffers').style.display='none';
+var cxDataObject = {
+   "wt.z_activity":"click",
+   "wt.pn_sku":"DigitalBanking",
+   "wt.cg_n":"Banking",
+   "wt.cg_s":"Online Banking",
+   "wt.tx_e":"v", 
+   
+};
+
+window.ORA = window.ORA || {productReady: []};
+    ORA.productReady.push(['analytics', function(cxDataObject) {return function() {return ORA.click({"data": cxDataObject})}}(cxDataObject)]);
+}
+</script>
+
+<script  type="text/JavaScript">
+function Creditcards() {
+document.getElementById('section-Recommendations-OtherLoans').style.display='none';
+document.getElementById('section-Recommendations-SmartBanking').style.display='none';
+document.getElementById('section-Recommendations').style.display='none';
+document.getElementById('section-Recommendations-Creditcards').style.display='block';
+document.getElementById('section-Recommendations-PersonalizedOffers').style.display='none';
+}
+function OtherLoans() {
+document.getElementById('section-Recommendations').style.display='none';
+document.getElementById('section-Recommendations-OtherLoans').style.display='block';
+document.getElementById('section-Recommendations-Creditcards').style.display='none';
+document.getElementById('section-Recommendations-SmartBanking').style.display='none';
+document.getElementById('section-Recommendations-PersonalizedOffers').style.display='none';
+
+
+var cxDataObject = {
+   "wt.z_activity":"click",
+   "wt.pn_sku":"otherloans",
+   "wt.cg_n":"Loans",
+   "wt.cg_s":"OtherLoan",
+   "wt.tx_e":"v", 
+};
+
+window.ORA = window.ORA || {productReady: []};
+    ORA.productReady.push(['analytics', function(cxDataObject) {return function() {return ORA.click({"data": cxDataObject})}}(cxDataObject)]);
+}
+</script>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://img03.en25.com/Web/MarketingCloud04/{83a501d8-7257-4d1f-af34-53139d06f921}_jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="https://img03.en25.com/Web/MarketingCloud04/{737a279d-831a-4721-b8cd-a741a7188698}_bootstrap.min.js"></script>
+      <script type="text/javascript" src="http://img03.en25.com/Web/MarketingCloud04/{b6fb07ca-e6f3-4fdf-aada-d5570a69d596}_http://img03.en25.com/Web/MarketingCloud04/{9030a9f3-82d0-47d5-8837-93dfb13a8d57}_menumaker.js"></script>
+      <!-- sticky header -->
+      <script type="text/javascript" src="http://img03.en25.com/Web/MarketingCloud04/{3817f68b-84d0-43e6-b6a8-e6d62ff881ff}_jquery.sticky.js"></script>
+      <script type="text/javascript" src="http://img03.en25.com/Web/MarketingCloud04/{bae83cc2-f02c-429b-a854-f24971f8f48c}_http://img03.en25.com/Web/MarketingCloud04/{5fae8399-ccd7-40b4-b77e-10be67e54709}_sticky-header.js"></script>
+      <!-- one page scroling navigation -->
+      <script type="text/javascript" src="http://img03.en25.com/Web/MarketingCloud04/{c36fd33e-f5f2-49d8-a0cd-948faf2f83a1}_jquery.easing.min.js"></script>
+      <script type="text/javascript" src="http://img03.en25.com/Web/MarketingCloud04/{70eb6c2c-99b8-47d1-a351-2dc99bce008e}_http://img03.en25.com/Web/MarketingCloud04/{35c0ab72-1f10-4011-9910-1e8525d67534}_scrolling-nav.js"></script>
+      <!-- Faq Accordion -->
+      <script src="http://img03.en25.com/Web/MarketingCloud04/{b75a3a6c-d7cd-41f2-8fae-97ca6e0e8f28}_http://img03.en25.com/Web/MarketingCloud04/{f109bc6e-a6b7-43e9-bc90-ba48961c8a60}_accordion.js" type="text/javascript"></script>
+      <script src="https://img03.en25.com/Web/MarketingCloud04/{c3223404-e925-4dc1-9e92-d1d25f17c2db}_jquery-ui.js"></script>
+      
+ 
+	 
+
+         
+	  
+	
+      
+      <!-- Back to top script -->
+      <script src="http://img03.en25.com/Web/MarketingCloud04/{39e077d4-6840-458e-829b-dbaaeeaa7564}_http://img03.en25.com/Web/MarketingCloud04/{2fc763e4-02c0-4b72-90c2-887a18d5a3eb}_back-to-top.js" type="text/javascript"></script>
+   
+<script type="text/javascript" src="https://img03.en25.com/i/livevalidation_standalone.compressed.js">
+</script>
+
+<script type="text/javascript">function handleFormSubmit(ele) {
+	unknownsubmittrack();
+    var submitButton = ele.querySelector('input[type=submit]');
+    var spinner = document.createElement('span');
+    spinner.setAttribute('class', 'loader');
+    submitButton.setAttribute('disabled', true);
+    submitButton.style.cursor = 'wait';
+    submitButton.parentNode.appendChild(spinner);
+    return true;
+  }
+  function resetSubmitButton(e){
+    var submitButtons = e.target.form.getElementsByClassName('submit-button');
+    for(var i=0;i<submitButtons.length;i++){
+      submitButtons[i].disabled = false;
+    }
+  }
+  function addChangeHandler(elements){
+    for(var i=0; i<elements.length; i++){
+      elements[i].addEventListener('change', resetSubmitButton);
+    }
+  }
+  var form = document.getElementById('form191');
+  addChangeHandler(form.getElementsByTagName('input'));
+  addChangeHandler(form.getElementsByTagName('select'));
+  addChangeHandler(form.getElementsByTagName('textarea'));
+  var nodes = document.querySelectorAll('#form191 input[data-subscription]');
+  if (nodes) {
+    for (var i = 0, len = nodes.length; i < len; i++) {
+      var status = nodes[i].dataset ? nodes[i].dataset.subscription : nodes[i].getAttribute('data-subscription');
+      if(status ==='true') {
+        nodes[i].checked = true;
+      }
+    }
+  };
+  var nodes = document.querySelectorAll('#form191 select[data-value]');
+  if (nodes) {
+    for (var i = 0; i < nodes.length; i++) {
+      var node = nodes[i];
+      var selectedValue = node.dataset ? node.dataset.value : node.getAttribute('data-value');
+      if (selectedValue) {
+        for (var j = 0; j < node.options.length; j++) {
+          if(node.options[j].value === selectedValue) {
+            node.options[j].selected = 'selected';
+            break;
+          }
+        }
+      }
+    }
+  }
+  this.getParentElement = function(list) {
+    return list[list.length-1].parentElement};
+  var dom0 = document.querySelector('#form191 #fe1720');
+  var fe1720 = new LiveValidation(dom0, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1720.add(Validate.Format, {
+    pattern: /(^[A-Z0-9!#\$%&'\*\+\-\/=\?\^_`\{\|\}~][A-Z0-9!#\$%&'\*\+\-\/=\?\^_`\{\|\}~\.]{0,62}@(([A-Z0-9](?:[A-Z0-9\-]{0,61}[A-Z0-9])?)(\.[A-Z0-9](?:[A-Z0-9\-]{0,61}[A-Z0-9])?)+)$)/i, failureMessage: "A valid email address is required"}
+            );
+  fe1720.add(Validate.Format, {
+    pattern: /\.\.|\.@/i, failureMessage: "A valid email address is required", negate: "true"}
+            );
+  fe1720.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+			var dom8 = document.querySelector('#email');
+  var email = new LiveValidation(dom8, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  email.add(Validate.Format, {
+    pattern: /(^[A-Z0-9!#\$%&'\*\+\-\/=\?\^_`\{\|\}~][A-Z0-9!#\$%&'\*\+\-\/=\?\^_`\{\|\}~\.]{0,62}@(([A-Z0-9](?:[A-Z0-9\-]{0,61}[A-Z0-9])?)(\.[A-Z0-9](?:[A-Z0-9\-]{0,61}[A-Z0-9])?)+)$)/i, failureMessage: "A valid email address is required"}
+            );
+  email.add(Validate.Format, {
+    pattern: /\.\.|\.@/i, failureMessage: "A valid email address is required", negate: "true"}
+            );
+  email.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+			var dom9 = document.querySelector('#password');
+  var password = new LiveValidation(dom9, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  password.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  password.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  password.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 8, maximum: 20}
+            );
+  password.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom1 = document.querySelector('#form191 #fe1721');
+  var fe1721 = new LiveValidation(dom1, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1721.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe1721.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe1721.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  fe1721.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom2 = document.querySelector('#form191 #fe1722');
+  var fe1722 = new LiveValidation(dom2, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1722.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe1722.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe1722.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+  fe1722.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  var dom3 = document.querySelector('#form191 #fe1723');
+  var fe1723 = new LiveValidation(dom3, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1723.add(Validate.Presence, {
+    failureMessage:"This field is required"}
+            );
+  
+  
+  var dom6 = document.querySelector('#form191 #fe1726');
+  var fe1726 = new LiveValidation(dom6, {
+    validMessage: "", onlyOnBlur: false, wait: 300, isPhoneField: false}
+                                 );
+  fe1726.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+    }
+    , failureMessage: "Value must not contain any URL's"}
+            );
+  fe1726.add(Validate.Custom, {
+    against: function(value) {
+      return !value.match(/(<([^>]+)>)/ig);
+    }
+    , failureMessage: "Value must not contain any HTML"}
+            );
+  fe1726.add(Validate.Length, {
+    tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+</script>
+<script  type="text/JavaScript">
+function unknownsubmittrack() {
+
+
+var cxDataObject = {
+   
+   "wt.z_page_category":"Home Loan Page", 
+   "wt.z_utm_source":"Online search",
+   "wt.z_utm_medium":"Online, Banking",
+   "wt.z_utm_content":"Banking",
+   "wt.z_utm_campaign":"Home Loan",
+   "wt.z_utm_term":"",
+   "wt.z_userid": document.getElementById('fe1730').value,
+   "wt.z_consent":"Y",
+   "wt.z_email": document.getElementById('fe1720').value,
+   "wt.z_firstname": document.getElementById('fe1721').value,
+   "wt.z_lastname": document.getElementById('fe1722').value,
+   "wt.z_mobilephone": document.getElementById('fe1723').value,
+   "wt.z_activity":"Home Loan Form Submit",
+   "wt.z_language":"English",
+};
+
+window.ORA = window.ORA || {productReady: []};
+    ORA.productReady.push(['analytics', function(cxDataObject) {return function() {return ORA.click({"data": cxDataObject})}}(cxDataObject)]);
+}
+</script>
+   <script type="text/JavaScript">
+(function(){
+
+    // Declare Your Parameters (or leave object empty {})
+   var cxDataObject = {
+   
+   
+   "wt.z_page_category":"Home Loan Page", 
+   "wt.z_utm_source":"Online search",
+   "wt.z_utm_medium":"Online, Banking",
+   "wt.z_utm_content":"Banking",
+   "wt.z_utm_campaign":"Home Loan",
+   "wt.z_utm_term":"",
+   "wt.z_userid":"",
+   "wt.z_consent":"Y",
+   "wt.z_email":"",
+   "wt.z_firstname":"",
+   "wt.z_lastname":"",
+   "wt.z_mobilephone":"",
+   "wt.z_language":"English",
+   "wt.z_activity":"view",
+   "wt.pn_sku":"HomeLoan2023",
+   "wt.cg_n":"Loan",
+   "wt.cg_s":"HomeLoan",
+};
+
+    // DO NOT EDIT BELOW THIS LINE - ORA.view()
+    window.ORA = window.ORA || {productReady: []};
+    ORA.productReady.push(['analytics', function(cxDataObject) {return function() {return ORA.view({"data": cxDataObject})}}(cxDataObject)]);
+})();
+</script>
+<script type="text/javascript" src="https://img03.en25.com/Web/MarketingCloud04/{30982677-1846-419c-aca2-7e45b3107a48}_owl.carousel.min.js"></script>
+		<script type="text/javascript" src="https://img03.en25.com/Web/MarketingCloud04/{0a807863-4b0a-46db-9281-f9c24263f1dd}_slider-carousel.js"></script>
+		<script type="text/javascript" src="https://img03.en25.com/Web/MarketingCloud04/{e6ca4522-ee6a-4a3c-84f9-58428be9d010}_service-carousel.js"></script>
+   </body>
+</html>
